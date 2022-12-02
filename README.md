@@ -5,4 +5,4 @@ Change from my development environment!
 
 Change from GitHub
 
-Conflict change made in development environment
+Conflict change made in GitHub and development environment
