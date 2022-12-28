@@ -3,8 +3,7 @@
     <div id="ball"></div>
     <div id="ground">
       <div id="source">
-        <a
-          href="https://github.com/leesjensen/cs260/tree/main/www/node/node-cp4-voter"
+        <a href="https://github.com/webprogramming260/startup-example"
           >GitHub</a
         >
       </div>
@@ -51,7 +50,7 @@ export default {
 #ground #source a {
   text-decoration: none;
   color: darkgray;
-  z-index: -2;
+  z-index: 100;
 }
 
 #shadow {

@@ -1,38 +1,52 @@
-# Build
+while getopts k:h: flag
+do
+    case "${flag}" in
+        k) key=${OPTARG};;
+        h) hostname=${OPTARG};;
+    esac
+done
+
+if [[ -z "$key" || -z "$hostname" ]]; then
+    printf "\nMissing required parameter.\n"
+    printf "  syntax: deploy.sh -k <pem key file> -h <hostname>\n\n"
+    exit 1
+fi
+
+service=startup
+
+printf "\n----> Deploying $service application to $hostname with $key\n"
+
+
+# Step 1
+printf "\n----> Build the distribution package\n"
+rm -rf dist
 pushd ui
 npm run build
 popd
-
+mkdir dist
+mv ui/dist dist/public
 printf "%s" $(date +%F-%T) > version.txt
+cp *.js *.json version.txt dist
 
-# Copy to production
-ssh -i ~/keys/cs260/id_rsa root@cs260.click 'mkdir -p /var/www/cp4/public' 
-scp -i ~/keys/cs260/id_rsa -r ui/dist/* root@cs260.click:/var/www/cp4/public
+# Step 2
+printf "\n----> Clearing out previous distribution on the target\n"
+ssh -i $key ubuntu@$hostname << ENDSSH
+rm -rf services/${service}
+mkdir -p services/${service}
+ENDSSH
 
-scp -i ~/keys/cs260/id_rsa *.js *.json version.txt root@cs260.click:/var/www/cp4/
-ssh -i ~/keys/cs260/id_rsa root@cs260.click 'cd /var/www/cp4; npm install' 
+# Step 3
+printf "\n----> Copy the distribution package to the target\n"
+scp -r -i $key dist/* ubuntu@$hostname:services/$service
 
-# Test it is running
-ssh -i ~/keys/cs260/id_rsa root@cs260.click "curl -i -s localhost:20400/api/version; printf '\n---------\n'"
+# Step 4
+printf "\n----> Deploy the service on the target\n"
+ssh -i $key ubuntu@$hostname << ENDSSH
+cd services/${service}
+npm install
+pm2 restart ${service}
+ENDSSH
 
-# Check out the result
-# open -a "Google Chrome" "https://cp4.cs260.click"
-
-# Run only once - Make server a daemon
-# pm2 start --name cp4 server.js --watch --ignore-watch="node_modules"
-# pm2 save
-
-# Run only once - Get certificate
-# certbot --nginx -d cp4.cs260.click
-
-
-# Configure /etc/nginx/sites-available/default
-# service nginx reload
-
-# server {
-#     root /var/www/cp4/public;
-
-#     location /api {
-#         proxy_pass http://localhost:20400;
-#     }
-# }
+# Step 5
+printf "\n----> Removing local copy of the distribution package\n"
+rm -rf dist

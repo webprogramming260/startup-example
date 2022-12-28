@@ -34,7 +34,7 @@ app.get('/api/candidate', (req, res) => {
 
 // Replace the candidates and reset the users
 // Format: {"candidates":[{"name": "Meg","url": "https://game.com","votes": 0,"id": "game"}]}
-// curl -X PUT localhost:20400/api/candidates -H "Content-Type:application/json" --data '@finalists.json'
+// curl -X PUT localhost:4000/api/candidates -H "Content-Type:application/json" --data '@finalists.json'
 app.put('/api/candidates', async (req, res) => {
   if (req.body.candidate.length) {
     await DB.CandidateCol.collection.drop();
@@ -85,8 +85,8 @@ async function updateCandidates(buffer) {
   );
 }
 
-server = app.listen(20400, () => {
-  console.log(`Listening on 20400`);
+server = app.listen(4000, () => {
+  console.log(`Listening on 4000`);
 });
 
 // Create a websocket object
