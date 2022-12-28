@@ -1,0 +1,6 @@
+version.txt
+ui/dist
+/public
+
+.DS_Store
+node_modules
