@@ -30,18 +30,18 @@ cp *.js *.json version.txt dist
 
 # Step 2
 printf "\n----> Clearing out previous distribution on the target\n"
-ssh -i $key ubuntu@$hostname << ENDSSH
+ssh -i "$key" ubuntu@$hostname << ENDSSH
 rm -rf services/${service}
 mkdir -p services/${service}
 ENDSSH
 
 # Step 3
 printf "\n----> Copy the distribution package to the target\n"
-scp -r -i $key dist/* ubuntu@$hostname:services/$service
+scp -r -i "$key" dist/* ubuntu@$hostname:services/$service
 
 # Step 4
 printf "\n----> Deploy the service on the target\n"
-ssh -i $key ubuntu@$hostname << ENDSSH
+ssh -i "$key" ubuntu@$hostname << ENDSSH
 cd services/${service}
 npm install
 pm2 restart ${service}
