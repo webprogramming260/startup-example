@@ -1,73 +1,52 @@
 {
   "candidate": [
     {
-      "name": "Raina Jones & Jared Kitchen",
-      "url": "https://zen.reinajones.com/",
+      "name": "Samuel Bishop & Ethan Michaelis",
+      "url": "https://startup.tradeworldgame.click",
       "votes": 0,
-      "id": "zenplants"
+      "id": "tradeworld"
     },
     {
-      "name": "Camren Taylor",
-      "url": "https://game.camrentaylor.me",
+      "name": "Peter Fullmer",
+      "url": "https://startup.peterfullmer.net",
       "votes": 0,
-      "id": "game"
+      "id": "aijudgedrawing"
     },
     {
-      "name": "Heath Woodruff",
-      "url": "https://woodsofarreth.heathbar.click/",
+      "name": "Khai Hirschi",
+      "url": "https://startup.bracketgen.click/ ",
       "votes": 0,
-      "id": "arreth"
+      "id": "bracketgen"
     },
     {
-      "name": "Daniel Blanchard",
-      "url": "https://listly.do.danielblanchard.click/",
+      "name": "Logan Orr",
+      "url": "https://startup.shorlines.com/",
       "votes": 0,
-      "id": "recipies",
-      "discord": "danny_boi_13"
+      "id": "shorlines"
     },
     {
-      "name": "Keaton Folsom",
-      "url": "https://mk-records.goodegg.click/",
+      "name": "Daniel Yu & William Pendleton",
+      "url": "https://startup.excursionsxr.world",
       "votes": 0,
-      "id": "mariokart",
-      "discord": "kabobby"
+      "id": "exursionsxr"
     },
     {
-      "name": "Cole Draper",
-      "url": "https://journey2.tycodra.com",
+      "name": "Hannah Spigarelli",
+      "url": "https://startup.tastyempanada.click",
       "votes": 0,
-      "id": "bucketlist"
+      "id": "taskmgr"
     },
     {
-      "name": "Rachel Perrier",
-      "url": "http://cp4.happicookieco.com/",
+      "name": "Calvin Pugmire",
+      "url": "https://startup.lightbikebattle.click/",
       "votes": 0,
-      "id": "goals"
+      "id": "tron"
     },
     {
-      "name": "BJ Foutz & Jared Black",
-      "url": "https://thesaurdle.bjfoutz.space/",
+      "name": "Noah Pratt",
+      "url": "https://dev.musicmetrics.app/",
       "votes": 0,
-      "id": "thesaurdle"
-    },
-    {
-      "name": "Dallon Gunn",
-      "url": "https://story.dallongunn.com/",
-      "votes": 0,
-      "id": "stories"
-    },
-    {
-      "name": "Jake Mullins",
-      "url": "http://codele.jake-mullins.net",
-      "votes": 0,
-      "id": "calculator"
-    },
-    {
-      "name": "Fritz Morlant",
-      "url": "https://project4.cs260.fritzcarl.com",
-      "votes": 0,
-      "id": "haiti",
-      "discord": "prince_fritzcarl"
+      "id": "spotify"
     }
   ]
 }

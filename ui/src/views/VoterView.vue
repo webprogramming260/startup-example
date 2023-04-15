@@ -1,10 +1,12 @@
 <template>
   <div class="home">
-    <ul>
-      <li v-for="candidate in candidates" v-bind:key="candidate.url">
-        <CandidateCard :candidate="candidate" />
-      </li>
-    </ul>
+    <div class="candidates">
+      <ul>
+        <li v-for="candidate in candidates" v-bind:key="candidate.url">
+          <CandidateCard :candidate="candidate" />
+        </li>
+      </ul>
+    </div>
     <BouncyBall />
   </div>
 </template>
@@ -40,7 +42,14 @@ export default {
 </script>
 
 <style scoped>
+.candidates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 ul {
+  min-width: 25em;
   padding: 0;
   list-style-type: none;
 }
