@@ -1,14 +1,13 @@
 const mongoose = require('mongoose');
+const config = require('./dbConfig.json');
 
-const _userName = process.env.MONGOUSER;
-const _password = process.env.MONGOPASSWORD;
-const _hostname = process.env.MONGOHOSTNAME;
 const _dbName = 'voter';
 const _userCollectionName = 'user';
 const _candidateCollectionName = 'candidate';
 
-if (!_userName)
+if (!config.userName) {
   throw Error('Database not configured. Set environment variables');
+}
 
 const userSchema = new mongoose.Schema({
   email: String,
@@ -22,10 +21,7 @@ const candidateSchema = new mongoose.Schema({
   votes: Number,
   id: String,
 });
-exports.CandidateCol = mongoose.model(
-  _candidateCollectionName,
-  candidateSchema
-);
+exports.CandidateCol = mongoose.model(_candidateCollectionName, candidateSchema);
 
-const dbUrl = `mongodb+srv://${_userName}:${_password}@${_hostname}/${_dbName}`;
+const dbUrl = `mongodb+srv://${config.userName}:${config.password}@${config.hostname}/${_dbName}`;
 mongoose.connect(dbUrl);
