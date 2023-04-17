@@ -1,6 +1,6 @@
 {
-  "name": "node-cp4-voter",
-  "version": "0.1.0",
+  "name": "demo-day-voting",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
