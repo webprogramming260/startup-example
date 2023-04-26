@@ -27,6 +27,8 @@ Here is a sequence diagram that shows how to people would interact with the back
 
 ### Technologies
 
+I am going to use the required technologies in the following ways.
+
 - **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
 - **JavaScript** - Provides login, choice display, applying votes, display other users votes, backend endpoint calls.
@@ -47,7 +49,7 @@ For this deliverable I added the following:
 - **HTML pages** - Two HTML page that represent the ability to login and vote.
 - **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
 - **Text** - Each of the voting choices is represented by a textual description.
-- **Images** - I used a link image to clearly indicate navigation to the voter artifact.
+- **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
 - **Login** - Input box and submit button for login.
 - **Database** - The voting choices represent data pulled from the database.
 - **WebSocket** - The count of voting results represent the tally of realtime votes.
@@ -57,11 +59,11 @@ For this deliverable I added the following:
 For this deliverable I properly styled the following:
 
 - **Header, footer, and main content body**
-- **Navigation elements** - I droped
+- **Navigation elements** - I dropped the underlines and changed the color for anchor elements.
 - **Responsive to window resizing** - My app looks great on all window sizes and devices
 - **Application elements** - Used good contrast and whitespace
 - **Application text content** - Consistent fonts
-- **Application images** - Properly sized the link image
+- **Application images** - Still don't have images and so no styling here. 😔
 
 ## JavaScript deliverable
 
@@ -70,7 +72,7 @@ For this deliverable I properly styled the following:
 - **login** - When you press enter or the login button it takes you to the voting page.
 - **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
 - **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
-- **application logic** - The highlight and ranking number changes based up the users selections.
+- **application logic** - The highlight and ranking number change based up the user's selections.
 
 ## Service deliverable
 
