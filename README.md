@@ -1,6 +1,8 @@
 # Voter
 
-## Elevator pitch
+## Description deliverable
+
+### Elevator pitch
 
 Have you ever endlessly debated with your friends about where to meet for lunch, or had your team bog down about an important decision that needs to be made. The Voting application makes it so a group of people can pull out their phones, clearly see the options, and pick their top three choices. As each user makes their choices the results are automatically tallied and displayed in realtime to all the other group members. Once everyone locks in their choices the group can move forward with confidence that the best option has been selected.
 
@@ -37,3 +39,80 @@ Here is a sequence diagram that shows how to people would interact with the back
 - **Login** - Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 - **React** - Application ported to use the React web framework.
+
+## HTML deliverable
+
+For this deliverable I added the following:
+
+- **HTML pages** - Two HTML page that represent the ability to login and vote.
+- **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
+- **Text** - Each of the voting choices is represented by a textual description.
+- **Images** - I used a link image to clearly indicate navigation to the voter artifact.
+- **Login** - Input box and submit button for login.
+- **Database** - The voting choices represent data pulled from the database.
+- **WebSocket** - The count of voting results represent the tally of realtime votes.
+
+## CSS deliverable
+
+For this deliverable I properly styled the following:
+
+- **Header, footer, and main content body**
+- **Navigation elements** - I droped
+- **Responsive to window resizing** - My app looks great on all window sizes and devices
+- **Application elements** - Used good contrast and whitespace
+- **Application text content** - Consistent fonts
+- **Application images** - Properly sized the link image
+
+## JavaScript deliverable
+
+For this deliverable I properly styled the following:
+
+- **login** - When you press enter or the login button it takes you to the voting page.
+- **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
+- **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
+- **application logic** - The highlight and ranking number changes based up the users selections.
+
+## Service deliverable
+
+For this deliverable I properly styled the following:
+
+- **Node.js/Express HTTP service** - done!
+- **Static middleware for frontend** - done!
+- **Calls to third party endpoints** - I didn't have time to implement this. 😔
+- **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
+- **Frontend calls service endpoints** - I did this use the fetch function.
+
+## DB deliverable
+
+For this deliverable I properly styled the following:
+
+- **MongoDB Atlas database created** - done!
+- **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
+- **Stores data in MongoDB** - done!
+
+## Login deliverable
+
+For this deliverable I properly styled the following:
+
+- **User registration** - Creates a new account in the database.
+- **existing user** - Verifies the user's name and password from data stored in the database
+- **Use MongoDB to store credentials** - done!
+- **Restricts functionality** - You cannot vote until you have logged in.
+
+## WebSocket deliverable
+
+For this deliverable I properly styled the following:
+
+- **Backend listens for WebSocket connection** - done!
+- **Frontend makes WebSocket connection** - done!
+- **Data sent over WebSocket connection** - done!
+- **WebSocket data displayed** - All user votes display in realtime
+
+## React deliverable
+
+For this deliverable I properly styled the following:
+
+- **Bundled and transpiled** - done!
+- **Components** - Login, voting list, vote are all components.
+- **Router** - Routing between login and voting components.
+- **Hooks** - UseState to track changes in vote state.
