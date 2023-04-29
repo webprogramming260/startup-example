@@ -44,7 +44,7 @@ I am going to use the required technologies in the following ways.
 
 ## HTML deliverable
 
-For this deliverable I added the following:
+For this deliverable I added the application structure.
 
 - **HTML pages** - Two HTML page that represent the ability to login and vote.
 - **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
@@ -56,7 +56,7 @@ For this deliverable I added the following:
 
 ## CSS deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I properly styled the application into its final appearance.
 
 - **Header, footer, and main content body**
 - **Navigation elements** - I dropped the underlines and changed the color for anchor elements.
@@ -67,7 +67,7 @@ For this deliverable I properly styled the following:
 
 ## JavaScript deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I made my application functional to track and display a user's three votes.
 
 - **login** - When you press enter or the login button it takes you to the voting page.
 - **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
@@ -76,7 +76,7 @@ For this deliverable I properly styled the following:
 
 ## Service deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I created an HTTP service to host my frontend and provide backend endpoints.
 
 - **Node.js/Express HTTP service** - done!
 - **Static middleware for frontend** - done!
@@ -86,7 +86,7 @@ For this deliverable I properly styled the following:
 
 ## DB deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I stored and retrieved data from MongoDB.
 
 - **MongoDB Atlas database created** - done!
 - **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
@@ -94,7 +94,7 @@ For this deliverable I properly styled the following:
 
 ## Login deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I added user registration and authentication.
 
 - **User registration** - Creates a new account in the database.
 - **existing user** - Verifies the user's name and password from data stored in the database
@@ -103,7 +103,7 @@ For this deliverable I properly styled the following:
 
 ## WebSocket deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I enabled realtime reporting of votes from other users.
 
 - **Backend listens for WebSocket connection** - done!
 - **Frontend makes WebSocket connection** - done!
@@ -112,7 +112,7 @@ For this deliverable I properly styled the following:
 
 ## React deliverable
 
-For this deliverable I properly styled the following:
+For this deliverable I port the application over to React.
 
 - **Bundled and transpiled** - done!
 - **Components** - Login, voting list, vote are all components.
