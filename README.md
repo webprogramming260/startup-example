@@ -44,7 +44,7 @@ I am going to use the required technologies in the following ways.
 
 ## HTML deliverable
 
-For this deliverable I added the application structure.
+For this deliverable I built out the structure of my application using HTML.
 
 - **HTML pages** - Two HTML page that represent the ability to login and vote.
 - **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
@@ -67,7 +67,7 @@ For this deliverable I properly styled the application into its final appearance
 
 ## JavaScript deliverable
 
-For this deliverable I made my application functional to track and display a user's three votes.
+For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
 
 - **login** - When you press enter or the login button it takes you to the voting page.
 - **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
@@ -76,17 +76,17 @@ For this deliverable I made my application functional to track and display a use
 
 ## Service deliverable
 
-For this deliverable I created an HTTP service to host my frontend and provide backend endpoints.
+For this deliverable I added backend endpoints that receives votes and returns the voting totals.
 
 - **Node.js/Express HTTP service** - done!
 - **Static middleware for frontend** - done!
 - **Calls to third party endpoints** - I didn't have time to implement this. 😔
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
-- **Frontend calls service endpoints** - I did this use the fetch function.
+- **Frontend calls service endpoints** - I did this using the fetch function.
 
 ## DB deliverable
 
-For this deliverable I stored and retrieved data from MongoDB.
+For this deliverable I stored the votes in the database.
 
 - **MongoDB Atlas database created** - done!
 - **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
@@ -94,27 +94,27 @@ For this deliverable I stored and retrieved data from MongoDB.
 
 ## Login deliverable
 
-For this deliverable I added user registration and authentication.
+For this deliverable I associate the votes with the logged in user.
 
 - **User registration** - Creates a new account in the database.
-- **existing user** - Verifies the user's name and password from data stored in the database
-- **Use MongoDB to store credentials** - done!
-- **Restricts functionality** - You cannot vote until you have logged in.
+- **existing user** - Stores the votes under the same user if the user already exists.
+- **Use MongoDB to store credentials** - Stores both user and their votes.
+- **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 😔
 
 ## WebSocket deliverable
 
-For this deliverable I enabled realtime reporting of votes from other users.
+For this deliverable I used webSocket to update the votes on the frontend in realtime.
 
 - **Backend listens for WebSocket connection** - done!
 - **Frontend makes WebSocket connection** - done!
 - **Data sent over WebSocket connection** - done!
-- **WebSocket data displayed** - All user votes display in realtime
+- **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool!
 
 ## React deliverable
 
-For this deliverable I port the application over to React.
+For this deliverable I converted the application over to use Vue. I know it is supposed to use React, but the instructor said I could use Vue because I already have extensive experience with React.
 
 - **Bundled and transpiled** - done!
 - **Components** - Login, voting list, vote are all components.
 - **Router** - Routing between login and voting components.
-- **Hooks** - UseState to track changes in vote state.
+- **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.

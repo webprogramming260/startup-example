@@ -1,52 +1,117 @@
 {
   "candidate": [
     {
-      "name": "Samuel Bishop & Ethan Michaelis",
-      "url": "https://startup.tradeworldgame.click",
+      "name": "William Clayton",
+      "url": "https://startup.werecapone.click",
       "votes": 0,
-      "id": "tradeworld"
+      "notes": "9 - Word guessing game. Nice websocket multiplayer",
+      "id": "wordguess"
     },
     {
-      "name": "Peter Fullmer",
-      "url": "https://startup.peterfullmer.net",
+      "name": "James Phelps",
+      "url": "https://startup.jamesphelps.click",
       "votes": 0,
-      "id": "aijudgedrawing"
+      "notes": "8 - Map with food events at BYU",
+      "id": "byufood"
     },
     {
-      "name": "Khai Hirschi",
-      "url": "https://startup.bracketgen.click/ ",
+      "name": "Seth Remer",
+      "url": "https://ditty.s3th.link/",
       "votes": 0,
-      "id": "bracketgen"
+      "notes": "8 - repeat the song lyrics multiplayer game. ",
+      "id": "repeatsong"
     },
     {
-      "name": "Logan Orr",
-      "url": "https://startup.shorlines.com/",
+      "name": "Tran Diep",
+      "url": "https://startup.dogtortron.link/",
       "votes": 0,
-      "id": "shorlines"
+      "notes": "7 - Bird song matching game",
+      "id": "birds"
     },
     {
-      "name": "Daniel Yu & William Pendleton",
-      "url": "https://startup.excursionsxr.world",
+      "name": "Brent Bishoff",
+      "url": "https://startup.bishoff.click/",
       "votes": 0,
-      "id": "exursionsxr"
+      "notes": "7 - Find the CHAT GPT lie. websocket for simple competitive play",
+      "id": "liar"
     },
     {
-      "name": "Hannah Spigarelli",
-      "url": "https://startup.tastyempanada.click",
+      "name": "Bryce Tolman",
+      "url": "http://startup.batwebapp.click",
       "votes": 0,
-      "id": "taskmgr"
+      "notes": "7 - pretty nice chat app with channels and persistence",
+      "id": "dailydose"
     },
     {
-      "name": "Calvin Pugmire",
-      "url": "https://startup.lightbikebattle.click/",
+      "name": "Arthur Hunter",
+      "url": "http://startup.kingarthur.click",
       "votes": 0,
-      "id": "tron"
+      "notes": "7 - multiplayer jackbox like game. Not like the others. Takes a while to play.",
+      "id": "notlikeothers"
     },
     {
-      "name": "Noah Pratt",
-      "url": "https://dev.musicmetrics.app/",
+      "name": "Jacob Evans",
+      "url": "https://startup.trainclimbing.com",
       "votes": 0,
-      "id": "spotify"
+      "notes": "7 - Chalk bouldering training app. kinda nice",
+      "id": ""
+    },
+    {
+      "name": "Evelyn Gaskin",
+      "url": "https://startup.eggaskin.net/",
+      "votes": 0,
+      "notes": "7 - list making. Actually pretty cool",
+      "id": ""
+    },
+    {
+      "name": "Spencer Terry",
+      "url": "https://startup.deezcodes.click/",
+      "votes": 0,
+      "notes": "6 - Complex UI uses AI to generate reports has stripe integration, kinda works",
+      "id": ""
+    },
+    {
+      "cut": "-----------------------------------------------------------",
+      "name": "Quinn Barret",
+      "url": "https://startup.quincinnati.com/",
+      "votes": 0,
+      "notes": "7 - Nice looking! simple multiplayer simcity game. Does nasty HTTP polling instead of WebSocket. Simple chat.",
+      "id": ""
+    },
+    {
+      "name": "Andrew Cambridge",
+      "url": "http://startup.cambridgeuniverse.org",
+      "votes": 0,
+      "notes": "6 - Chat with history and specific user channels. Colors are killing me.",
+      "id": ""
+    },
+    {
+      "name": "Adam Griffin",
+      "url": "https://startup.griffdawg.click/",
+      "votes": 0,
+      "notes": "5 - gluten free chat",
+      "id": ""
+    },
+    {
+      "name": "Mekenna Allred",
+      "url": "https://startup.allred260trial.link",
+      "votes": 0,
+      "notes": "3 - Simple create and list. shows your events, websocket for other user events",
+      "id": "events"
+    },
+    {
+      "name": "Ethan Richmond",
+      "url": "https://startup.cs260eman0202byu.click/",
+      "votes": 0,
+      "notes": "2 - Press the space bar!",
+      "id": ""
+    },
+    {
+      "name": "Dakota Stevens",
+      "url": "https://startup.dakotastevens.net/",
+      "votes": 0,
+      "notes": "2 - Basic javascript with hard coded service.",
+      "id": ""
     }
   ]
 }
