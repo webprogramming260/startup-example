@@ -1,13 +1,6 @@
 {
   "candidate": [
     {
-      "name": "William Clayton",
-      "url": "https://startup.werecapone.click",
-      "votes": 0,
-      "notes": "9 - Word guessing game. Nice websocket multiplayer",
-      "id": "wordguess"
-    },
-    {
       "name": "James Phelps",
       "url": "https://startup.jamesphelps.click",
       "votes": 0,
@@ -15,11 +8,11 @@
       "id": "byufood"
     },
     {
-      "name": "Seth Remer",
-      "url": "https://ditty.s3th.link/",
+      "name": "Evelyn Gaskin",
+      "url": "https://startup.eggaskin.net/",
       "votes": 0,
-      "notes": "8 - repeat the song lyrics multiplayer game. ",
-      "id": "repeatsong"
+      "notes": "7 - list making. Actually pretty cool",
+      "id": "list"
     },
     {
       "name": "Tran Diep",
@@ -54,64 +47,28 @@
       "url": "https://startup.trainclimbing.com",
       "votes": 0,
       "notes": "7 - Chalk bouldering training app. kinda nice",
-      "id": ""
+      "id": "workout"
     },
     {
-      "name": "Evelyn Gaskin",
-      "url": "https://startup.eggaskin.net/",
+      "name": "Seth Remer",
+      "url": "https://ditty.s3th.link/",
       "votes": 0,
-      "notes": "7 - list making. Actually pretty cool",
-      "id": ""
+      "notes": "8 - repeat the song lyrics multiplayer game. ",
+      "id": "repeatsong"
     },
     {
       "name": "Spencer Terry",
       "url": "https://startup.deezcodes.click/",
       "votes": 0,
       "notes": "6 - Complex UI uses AI to generate reports has stripe integration, kinda works",
-      "id": ""
+      "id": "reports"
     },
     {
-      "cut": "-----------------------------------------------------------",
-      "name": "Quinn Barret",
-      "url": "https://startup.quincinnati.com/",
+      "name": "William Clayton",
+      "url": "https://startup.werecapone.click",
       "votes": 0,
-      "notes": "7 - Nice looking! simple multiplayer simcity game. Does nasty HTTP polling instead of WebSocket. Simple chat.",
-      "id": ""
-    },
-    {
-      "name": "Andrew Cambridge",
-      "url": "http://startup.cambridgeuniverse.org",
-      "votes": 0,
-      "notes": "6 - Chat with history and specific user channels. Colors are killing me.",
-      "id": ""
-    },
-    {
-      "name": "Adam Griffin",
-      "url": "https://startup.griffdawg.click/",
-      "votes": 0,
-      "notes": "5 - gluten free chat",
-      "id": ""
-    },
-    {
-      "name": "Mekenna Allred",
-      "url": "https://startup.allred260trial.link",
-      "votes": 0,
-      "notes": "3 - Simple create and list. shows your events, websocket for other user events",
-      "id": "events"
-    },
-    {
-      "name": "Ethan Richmond",
-      "url": "https://startup.cs260eman0202byu.click/",
-      "votes": 0,
-      "notes": "2 - Press the space bar!",
-      "id": ""
-    },
-    {
-      "name": "Dakota Stevens",
-      "url": "https://startup.dakotastevens.net/",
-      "votes": 0,
-      "notes": "2 - Basic javascript with hard coded service.",
-      "id": ""
+      "notes": "9 - Word guessing game. Nice websocket multiplayer",
+      "id": "wordguess"
     }
   ]
 }
