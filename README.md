@@ -37,8 +37,7 @@ I am going to use the required technologies in the following ways.
   - retrieving choices
   - submitting votes
   - retrieving vote status
-- **DB** - Store users, choices, and votes in database.
-- **Login** - Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
+- **DB/Login** - Store users, choices, and votes in database. Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 - **React** - Application ported to use the React web framework.
 
@@ -50,8 +49,7 @@ For this deliverable I built out the structure of my application using HTML.
 - **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
 - **Text** - Each of the voting choices is represented by a textual description.
 - **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
-- **Login** - Input box and submit button for login.
-- **Database** - The voting choices represent data pulled from the database.
+- **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
 - **WebSocket** - The count of voting results represent the tally of realtime votes.
 
 ## CSS deliverable
@@ -84,18 +82,12 @@ For this deliverable I added backend endpoints that receives votes and returns t
 - **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
 - **Frontend calls service endpoints** - I did this using the fetch function.
 
-## DB deliverable
+## DB/Login deliverable
 
-For this deliverable I stored the votes in the database.
+For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
 
 - **MongoDB Atlas database created** - done!
-- **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
 - **Stores data in MongoDB** - done!
-
-## Login deliverable
-
-For this deliverable I associate the votes with the logged in user.
-
 - **User registration** - Creates a new account in the database.
 - **existing user** - Stores the votes under the same user if the user already exists.
 - **Use MongoDB to store credentials** - Stores both user and their votes.
