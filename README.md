@@ -1,6 +1,12 @@
 # Voter
 
-## Description deliverable
+This application serves as an example for the information you must provide in your Start Up `README.md` file for each phase of your development. You only need to fill in the section for the deliverable when you submit that deliverable in Canvas. This allows the TA to know what should be graded. 
+
+The specification deliverable section defines what your application will do. The rest of the deliverable sections reference the rubric for the deliverable and tell where the functionality is in your application, or documents that you did not satisfy that part of the rubric. 
+
+## Specification Deliverable
+
+➡️ The following is an example of the required information for the `Startup Specification` deliverable
 
 ### Elevator pitch
 
@@ -41,7 +47,10 @@ I am going to use the required technologies in the following ways.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 - **React** - Application ported to use the React web framework.
 
+
 ## HTML deliverable
+
+➡️ The following is an example of the required information for the `Startup HTML` deliverable
 
 For this deliverable I built out the structure of my application using HTML.
 
@@ -54,6 +63,8 @@ For this deliverable I built out the structure of my application using HTML.
 
 ## CSS deliverable
 
+➡️ The following is an example of the required information for the `Startup CSS` deliverable
+
 For this deliverable I properly styled the application into its final appearance.
 
 - **Header, footer, and main content body**
@@ -65,6 +76,8 @@ For this deliverable I properly styled the application into its final appearance
 
 ## JavaScript deliverable
 
+➡️ The following is an example of the required information for the `Startup JavaScript` deliverable
+
 For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
 
 - **login** - When you press enter or the login button it takes you to the voting page.
@@ -73,6 +86,8 @@ For this deliverable I implemented by JavaScript so that the application works f
 - **application logic** - The highlight and ranking number change based up the user's selections.
 
 ## Service deliverable
+
+➡️ The following is an example of the required information for the `Startup Service` deliverable
 
 For this deliverable I added backend endpoints that receives votes and returns the voting totals.
 
@@ -83,6 +98,8 @@ For this deliverable I added backend endpoints that receives votes and returns t
 - **Frontend calls service endpoints** - I did this using the fetch function.
 
 ## DB/Login deliverable
+
+➡️ The following is an example of the required information for the `Startup DB/Login` deliverable
 
 For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
 
@@ -95,6 +112,8 @@ For this deliverable I associate the votes with the logged in user. I stored the
 
 ## WebSocket deliverable
 
+➡️ The following is an example of the required information for the `Startup WebSocket` deliverable
+
 For this deliverable I used webSocket to update the votes on the frontend in realtime.
 
 - **Backend listens for WebSocket connection** - done!
@@ -103,6 +122,8 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 - **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool!
 
 ## React deliverable
+
+➡️ The following is an example of the required information for the `Startup React` deliverable
 
 For this deliverable I converted the application over to use Vue. I know it is supposed to use React, but the instructor said I could use Vue because I already have extensive experience with React.
 
