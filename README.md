@@ -1,8 +1,8 @@
 # Voter
 
-This application serves as an example for the information you must provide in your Start Up `README.md` file for each phase of your development. You only need to fill in the section for the deliverable when you submit that deliverable in Canvas. This allows the TA to know what should be graded. 
+This application serves as an example for the information you must provide in your Start Up `README.md` file for each phase of your development. You only need to fill in the section for the deliverable when you submit that deliverable in Canvas. This allows the TA to know what should be graded.
 
-The specification deliverable section defines what your application will do. The rest of the deliverable sections reference the rubric for the deliverable and tell where the functionality is in your application, or documents that you did not satisfy that part of the rubric. 
+The specification deliverable section defines what your application will do. The rest of the deliverable sections reference the rubric for the deliverable and tell where the functionality is in your application, or documents that you did not satisfy that part of the rubric.
 
 ## Specification Deliverable
 
@@ -46,7 +46,6 @@ I am going to use the required technologies in the following ways.
 - **DB/Login** - Store users, choices, and votes in database. Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 - **React** - Application ported to use the React web framework.
-
 
 ## HTML deliverable
 
