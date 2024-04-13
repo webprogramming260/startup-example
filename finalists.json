@@ -1,74 +1,340 @@
 {
   "candidate": [
     {
-      "name": "James Phelps",
-      "url": "https://startup.jamesphelps.click",
+      "name": "Diego Blaylock",
+      "url": "https://startup.fulicaatra.click/",
       "votes": 0,
-      "notes": "8 - Map with food events at BYU",
-      "id": "byufood"
+      "notes": "",
+      "id": "fulicaatra"
     },
     {
-      "name": "Evelyn Gaskin",
-      "url": "https://startup.eggaskin.net/",
+      "name": "Grant Alston",
+      "url": "https://startup.promptr.click/",
       "votes": 0,
-      "notes": "7 - list making. Actually pretty cool",
-      "id": "list"
+      "notes": "",
+      "id": "promptr"
     },
     {
-      "name": "Tran Diep",
-      "url": "https://startup.dogtortron.link/",
+      "name": "Trevor Bond",
+      "url": "https://jobapp.click/",
       "votes": 0,
-      "notes": "7 - Bird song matching game",
-      "id": "birds"
+      "notes": "",
+      "id": "jobapp"
     },
     {
-      "name": "Brent Bishoff",
-      "url": "https://startup.bishoff.click/",
+      "name": "Caleb Bradshaw",
+      "url": "https://startup.stridestories.click",
       "votes": 0,
-      "notes": "7 - Find the CHAT GPT lie. websocket for simple competitive play",
-      "id": "liar"
+      "notes": "",
+      "id": "stridestories"
     },
     {
-      "name": "Bryce Tolman",
-      "url": "http://startup.batwebapp.click",
+      "name": "Nathan Brueck",
+      "url": "https://startup.thempaths.click/",
       "votes": 0,
-      "notes": "7 - pretty nice chat app with channels and persistence",
-      "id": "dailydose"
+      "notes": "",
+      "id": "thempaths"
     },
     {
-      "name": "Arthur Hunter",
-      "url": "http://startup.kingarthur.click",
+      "name": "Charles Butler",
+      "url": "https://startup.mediarequest.click",
       "votes": 0,
-      "notes": "7 - multiplayer jackbox like game. Not like the others. Takes a while to play.",
-      "id": "notlikeothers"
+      "notes": "",
+      "id": "mediarequest"
     },
     {
-      "name": "Jacob Evans",
-      "url": "https://startup.trainclimbing.com",
+      "name": "Simon Cheek",
+      "url": "https://startup.gollab.click",
       "votes": 0,
-      "notes": "7 - Chalk bouldering training app. kinda nice",
-      "id": "workout"
+      "notes": "",
+      "id": "gollab"
     },
     {
-      "name": "Seth Remer",
-      "url": "https://ditty.s3th.link/",
+      "name": "Nate Cotton",
+      "url": "https://startup.myrpgvisual.click/",
       "votes": 0,
-      "notes": "8 - repeat the song lyrics multiplayer game. ",
-      "id": "repeatsong"
+      "notes": "",
+      "id": "myrpgvisual"
     },
     {
-      "name": "Spencer Terry",
-      "url": "https://startup.deezcodes.click/",
+      "name": "Alison Day",
+      "url": "https://startup.soundcircle.xyz/",
       "votes": 0,
-      "notes": "6 - Complex UI uses AI to generate reports has stripe integration, kinda works",
-      "id": "reports"
+      "notes": "",
+      "id": "soundcircle"
     },
     {
-      "name": "William Clayton",
-      "url": "https://startup.werecapone.click",
+      "name": "Joshua Ebbert",
+      "url": "https://startup.strategpt.click",
       "votes": 0,
-      "notes": "9 - Word guessing game. Nice websocket multiplayer",
-      "id": "wordguess"
+      "notes": "",
+      "id": "strategpt"
+    },
+    {
+      "name": "Zachary Erikson",
+      "url": "https://startup.trainingtracker260.com/",
+      "votes": 0,
+      "notes": "",
+      "id": "trainingtracker260"
+    },
+    {
+      "name": "Corwyn Giles",
+      "url": "https://startup.gamereviews.click",
+      "votes": 0,
+      "notes": "",
+      "id": "gamereviews"
+    },
+    {
+      "name": "Devyn Giles",
+      "url": "https://simon.blastzonecafe.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "blastzonecafe"
+    },
+    {
+      "name": "Spencer Hales",
+      "url": "https://startup.communitytogether.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "communitytogether"
+    },
+    {
+      "name": "Brynne Henderson",
+      "url": "https://startup.journalings.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "journalings"
+    },
+    {
+      "name": "Dallin Jackson",
+      "url": "https://kayliescreations.biz/",
+      "votes": 0,
+      "notes": "",
+      "id": "kayliescreations"
+    },
+    {
+      "name": "Andrew Jenkins",
+      "url": "https://startup.benchrat.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "benchrat"
+    },
+    {
+      "name": "Dillon Jensen",
+      "url": "https://startup.mallowsnatchers.click",
+      "votes": 0,
+      "notes": "",
+      "id": "mallowsnatchers"
+    },
+    {
+      "name": "Koby Jensen",
+      "url": "https://startup.gardentimer.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "gardentimer"
+    },
+    {
+      "name": "Anthony Johnson",
+      "url": "https://startup.tonyspizzagalleria.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "tonyspizzagalleria"
+    },
+    {
+      "name": "Jackson Jones",
+      "url": "https://writersblock.click",
+      "votes": 0,
+      "notes": "",
+      "id": "writersblock"
+    },
+    {
+      "name": "Andrew Keele",
+      "url": "https://startup.calorietracker.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "calorietracker"
+    },
+    {
+      "name": "Taehoon Kim",
+      "url": "https://startup.manageyourclub.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "manageyourclub"
+    },
+    {
+      "name": "Ammon Kunzler",
+      "url": "https://rmplanner.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "rmplanner"
+    },
+    {
+      "name": "Jacob Leavitt",
+      "url": "https://startup.goalcrush.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "goalcrush"
+    },
+    {
+      "name": "Christopher Markstaller",
+      "url": "https://startup.goaly.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "goaly"
+    },
+    {
+      "name": "Jacob Mitchell",
+      "url": "https://startup.cs260project.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "cs260project"
+    },
+    {
+      "name": "Travis Moody",
+      "url": "https://startup.retrorenditions.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "retrorenditions"
+    },
+    {
+      "name": "Duncan Morals",
+      "url": "https://startup.duncanmorais.com/",
+      "votes": 0,
+      "notes": "",
+      "id": "duncanmorais"
+    },
+    {
+      "name": "Kyler Moulton",
+      "url": "https://startup.boggle4dagoats.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "boggle4dagoats"
+    },
+    {
+      "name": "Merleth Ralda",
+      "url": "https://startup.charadeck.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "charadeck"
+    },
+    {
+      "name": "Matthew Partington",
+      "url": "https://startup.mrp-v2.net/",
+      "votes": 0,
+      "notes": "",
+      "id": "v2"
+    },
+    {
+      "name": "Ryann Penrod",
+      "url": "https://startup.porostudy.com/",
+      "votes": 0,
+      "notes": "",
+      "id": "porostudy"
+    },
+    {
+      "name": "Maxwell Prisbrey",
+      "url": "https://msimul.click",
+      "votes": 0,
+      "notes": "",
+      "id": "msimul"
+    },
+    {
+      "name": "Tyler Reese",
+      "url": "https://startup.jobofferinsight.click",
+      "votes": 0,
+      "notes": "",
+      "id": "jobofferinsight"
+    },
+    {
+      "name": "Vincent Reiley",
+      "url": "https://startup.lezicuts.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "lezicuts"
+    },
+    {
+      "name": "Axel Reynolds",
+      "url": "https://startup.kyfexuwu-byucs260.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "byucs260"
+    },
+    {
+      "name": "Merica Rowley",
+      "url": "https://startup.musicards.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "musicards"
+    },
+    {
+      "name": "Alex Snow",
+      "url": "https://startup.coolcsgames.click",
+      "votes": 0,
+      "notes": "",
+      "id": "coolcsgames"
+    },
+    {
+      "name": "Gavin Spens",
+      "url": "https://startup.videolibrary.click",
+      "votes": 0,
+      "notes": "",
+      "id": "videolibrary"
+    },
+    {
+      "name": "Daniel Spiesman",
+      "url": "https://startup.storyboard.ninja/",
+      "votes": 0,
+      "notes": "",
+      "id": "storyboard"
+    },
+    {
+      "name": "Hugh Takara",
+      "url": "https://startup.virtualfriend.click",
+      "votes": 0,
+      "notes": "",
+      "id": "virtualfriend"
+    },
+    {
+      "name": "Jonathan Thornton",
+      "url": "https://startup.iknowyou.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "iknowyou"
+    },
+    {
+      "name": "Hongting Wang",
+      "url": "https://startup.echoesofkeshialyricodyssey.click",
+      "votes": 0,
+      "notes": "",
+      "id": "echoesofkeshialyricodyssey"
+    },
+    {
+      "name": "Joshua Weidner",
+      "url": "https://startup.basketflyer.com",
+      "votes": 0,
+      "notes": "",
+      "id": "basketflyer"
+    },
+    {
+      "name": "Spencer Winward",
+      "url": "https://startup.winward.click",
+      "votes": 0,
+      "notes": "",
+      "id": "winward"
+    },
+    {
+      "name": "Gent Yong",
+      "url": "https://startup.nametag.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "nametag"
+    },
+    {
+      "name": "Gordon Yu",
+      "url": "https://startup.1337code.click/",
+      "votes": 0,
+      "notes": "",
+      "id": "1337code"
     }
   ]
 }
