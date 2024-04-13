@@ -33,9 +33,9 @@ app.get('/api/candidate', (req, res) => {
 });
 
 // Replace the candidates and reset the users
-// Format: {"candidates":[{"name": "Meg","url": "https://game.com","votes": 0,"id": "game"}]}
-// curl -X PUT localhost:4000/api/candidates -H "Content-Type:application/json" --data '@finalists.json'
-app.put('/api/candidates', async (req, res) => {
+// Format: {"candidate":[{"name": "Meg","url": "https://game.com","votes": 0,"id": "game"}]}
+// curl -X PUT localhost:4000/api/candidate -H "Content-Type:application/json" --data '@finalists.json'
+app.put('/api/candidate', async (req, res) => {
   if (req.body.candidate.length) {
     await DB.CandidateCol.collection.drop();
     await DB.UserCol.collection.drop();
