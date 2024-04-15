@@ -1,4 +1,4 @@
-import candidateSevice from '@/model/candidate.js';
+import candidateService from '@/model/candidate.js';
 
 let _user = {
   email: '',
@@ -50,11 +50,11 @@ export default {
       if (addVote && !prevVotedFor) {
         if (_user.votes.length < 3) {
           _user.votes.push(candidateId);
-          candidateSevice.vote(_user, candidateId, true);
+          candidateService.vote(_user, candidateId, true);
         }
       } else if (!addVote && prevVotedFor) {
         _user.votes = _user.votes.filter((c) => c !== candidateId);
-        candidateSevice.vote(_user, candidateId, false);
+        candidateService.vote(_user, candidateId, false);
       }
     }
   },

@@ -1,0 +1,340 @@
+{
+  "candidate": [
+    {
+      "name": "Diego Blaylock",
+      "url": "https://startup.fulicaatra.click/",
+      "votes": 0,
+      "notes": "8 create piano rooms where you can play and chat",
+      "id": "fulicaatra"
+    },
+    {
+      "name": "Grant Alston",
+      "url": "https://startup.promptr.click/",
+      "votes": 0,
+      "notes": "2 doesn't seem to be working",
+      "id": "promptr"
+    },
+    {
+      "name": "Trevor Bond",
+      "url": "https://jobapp.click/",
+      "votes": 0,
+      "notes": "4 search for jobs, but I couldn't get it to do more than that",
+      "id": "jobapp"
+    },
+    {
+      "name": "Caleb Bradshaw",
+      "url": "https://startup.stridestories.click",
+      "votes": 0,
+      "notes": "6 pretty cool little running board app",
+      "id": "stridestories"
+    },
+    {
+      "name": "Nathan Brueck",
+      "url": "https://startup.thempaths.click/",
+      "votes": 0,
+      "notes": "6 cool little game where you place paths on a grid",
+      "id": "thempaths"
+    },
+    {
+      "name": "Charles Butler",
+      "url": "https://startup.mediarequest.click",
+      "votes": 0,
+      "notes": "5 search for tv shows and create a list. This doesn't seem to connect the login with the lists",
+      "id": "mediarequest"
+    },
+    {
+      "name": "Simon Cheek",
+      "url": "https://startup.gollab.click",
+      "votes": 0,
+      "notes": "6 nice goal app that you can share with friends",
+      "id": "gollab"
+    },
+    {
+      "name": "Nate Cotton",
+      "url": "https://startup.myrpgvisual.click/",
+      "votes": 0,
+      "notes": "0 server down",
+      "id": "myrpgvisual"
+    },
+    {
+      "name": "Alison Day",
+      "url": "https://startup.soundcircle.xyz/",
+      "votes": 0,
+      "notes": "7 integration with spotify, but doesn't seem to work. Allows friends and viewing of their lists",
+      "id": "soundcircle"
+    },
+    {
+      "name": "Joshua Ebbert",
+      "url": "https://startup.strategpt.click",
+      "votes": 0,
+      "notes": "6 nicely done chat gpt chat app for gpt prep. Doesn't seem to work with the chatbot",
+      "id": "strategpt"
+    },
+    {
+      "name": "Zachary Erikson",
+      "url": "https://startup.trainingtracker260.com/",
+      "votes": 0,
+      "notes": "6 nice exercise tracker with websocket notifications",
+      "id": "trainingtracker260"
+    },
+    {
+      "name": "Corwyn Giles",
+      "url": "https://startup.gamereviews.click",
+      "votes": 0,
+      "notes": "5 community game ranking. looks good, not a lot of functionality",
+      "id": "gamereviews"
+    },
+    {
+      "name": "Devyn Giles",
+      "url": "https://simon.blastzonecafe.click/",
+      "votes": 0,
+      "notes": "4 simple menu rating. not super functional",
+      "id": "blastzonecafe"
+    },
+    {
+      "name": "Spencer Hales",
+      "url": "https://startup.communitytogether.click/",
+      "votes": 0,
+      "notes": "5 construction company website. Seems to be partially functional",
+      "id": "communitytogether"
+    },
+    {
+      "name": "Brynne Henderson",
+      "url": "https://startup.journalings.click/",
+      "votes": 0,
+      "notes": "0 not working. error after login",
+      "id": "journalings"
+    },
+    {
+      "name": "Dallin Jackson",
+      "url": "https://kayliescreations.biz/",
+      "votes": 0,
+      "notes": "8 pretty full featured shopping website. Looks good.",
+      "id": "kayliescreations"
+    },
+    {
+      "name": "Andrew Jenkins",
+      "url": "https://startup.benchrat.click/",
+      "votes": 0,
+      "notes": "6 some kind of bio reaction equation with ability to save",
+      "id": "benchrat"
+    },
+    {
+      "name": "Dillon Jensen",
+      "url": "https://startup.mallowsnatchers.click",
+      "votes": 0,
+      "notes": "8 cool multiplayer game where you try to catch marshmallows",
+      "id": "mallowsnatchers"
+    },
+    {
+      "name": "Koby Jensen",
+      "url": "https://startup.gardentimer.click/",
+      "votes": 0,
+      "notes": "6 gardening timer with reminders and weather report",
+      "id": "gardentimer"
+    },
+    {
+      "name": "Anthony Johnson",
+      "url": "https://startup.tonyspizzagalleria.click/",
+      "votes": 0,
+      "notes": "6 pizza creation and gallery",
+      "id": "tonyspizzagalleria"
+    },
+    {
+      "name": "Jackson Jones",
+      "url": "https://writersblock.click",
+      "votes": 0,
+      "notes": "8 really well done multiauthor writing app",
+      "id": "writersblock"
+    },
+    {
+      "name": "Andrew Keele",
+      "url": "https://startup.calorietracker.click/",
+      "votes": 0,
+      "notes": "7 calorie tracker with ability to add foods and track calories. some functionality is missing",
+      "id": "calorietracker"
+    },
+    {
+      "name": "Taehoon Kim",
+      "url": "https://startup.manageyourclub.click/",
+      "votes": 0,
+      "notes": "6 some sort of attendance tracker for clubs. Not sure how it works",
+      "id": "manageyourclub"
+    },
+    {
+      "name": "Ammon Kunzler",
+      "url": "https://rmplanner.click/",
+      "votes": 0,
+      "notes": "9 really good realtime coordinated calendar",
+      "id": "rmplanner"
+    },
+    {
+      "name": "Jacob Leavitt",
+      "url": "https://startup.goalcrush.click/",
+      "votes": 0,
+      "notes": "6 nice ui and themeing app that has calendar and goal tracking. Good tribute to Lee Jensen",
+      "id": "goalcrush"
+    },
+    {
+      "name": "Christopher Markstaller",
+      "url": "https://startup.goaly.click/",
+      "votes": 0,
+      "notes": "6 simple little goal and sharing app",
+      "id": "goaly"
+    },
+    {
+      "name": "Jacob Mitchell",
+      "url": "https://startup.cs260project.click/",
+      "votes": 0,
+      "notes": "5 some sort of goal app, but confusing and seems broken",
+      "id": "cs260project"
+    },
+    {
+      "name": "Travis Moody",
+      "url": "https://startup.retrorenditions.click/",
+      "votes": 0,
+      "notes": "8 pretty cool multi user pixel image editor",
+      "id": "retrorenditions"
+    },
+    {
+      "name": "Duncan Morals",
+      "url": "https://startup.duncanmorais.com/",
+      "votes": 0,
+      "notes": "6 cool google map integration, but I can't figure out what i'm supposed to do",
+      "id": "duncanmorais"
+    },
+    {
+      "name": "Kyler Moulton",
+      "url": "https://startup.boggle4dagoats.click/",
+      "votes": 0,
+      "notes": "8 Boggle with nice ui. Login seems broken",
+      "id": "boggle4dagoats"
+    },
+    {
+      "name": "Merleth Ralda",
+      "url": "https://startup.charadeck.click/",
+      "votes": 0,
+      "notes": "4 flipping info cards. Seems half baked",
+      "id": "charadeck"
+    },
+    {
+      "name": "Matthew Partington",
+      "url": "https://startup.mrp-v2.net/",
+      "votes": 0,
+      "notes": "7 maze generator with save and realtime sharing",
+      "id": "v2"
+    },
+    {
+      "name": "Ryann Penrod",
+      "url": "https://startup.porostudy.com/",
+      "votes": 0,
+      "notes": "7 kind of a cool study app. nice soft feel, but chat doesn't work",
+      "id": "porostudy"
+    },
+    {
+      "name": "Maxwell Prisbrey",
+      "url": "https://msimul.click",
+      "votes": 0,
+      "notes": "6 chess. It looks like it is trying to using stockfish on the backend, but it never gets called and so it is just a frontend chess game.",
+      "id": "msimul"
+    },
+    {
+      "name": "Tyler Reese",
+      "url": "https://startup.jobofferinsight.click",
+      "votes": 0,
+      "notes": "5 trivial salary calculator. Not much to it.",
+      "id": "jobofferinsight"
+    },
+    {
+      "name": "Vincent Reiley",
+      "url": "https://startup.lezicuts.click/",
+      "votes": 0,
+      "notes": "3 looks like the react code is broken",
+      "id": "lezicuts"
+    },
+    {
+      "name": "Axel Reynolds",
+      "url": "https://startup.kyfexuwu-byucs260.click/",
+      "votes": 0,
+      "notes": "9 Way cool multiplayer minesweeper",
+      "id": "byucs260"
+    },
+    {
+      "name": "Merica Rowley",
+      "url": "https://startup.musicards.click/",
+      "votes": 0,
+      "notes": "8 really nice music practice game",
+      "id": "musicards"
+    },
+    {
+      "name": "Alex Snow",
+      "url": "https://startup.coolcsgames.click",
+      "votes": 0,
+      "notes": "7 pretty cool little game where you fight monsters",
+      "id": "coolcsgames"
+    },
+    {
+      "name": "Gavin Spens",
+      "url": "https://startup.videolibrary.click",
+      "votes": 0,
+      "notes": "4 video librar, but it doesn't seem to work",
+      "id": "videolibrary"
+    },
+    {
+      "name": "Daniel Spiesman",
+      "url": "https://startup.storyboard.ninja/",
+      "votes": 0,
+      "notes": "4 looks great, but doesn't seem to work",
+      "id": "storyboard"
+    },
+    {
+      "name": "Hugh Takara",
+      "url": "https://startup.virtualfriend.click",
+      "votes": 0,
+      "notes": "7 Walk little blobs around a room. color scheme is killing me, but i can change to dark mode. incredible use of js and ws, but I just am not excited about it.",
+      "id": "virtualfriend"
+    },
+    {
+      "name": "Jonathan Thornton",
+      "url": "https://startup.iknowyou.click/",
+      "votes": 0,
+      "notes": "1 seems to be broken with react release",
+      "id": "iknowyou"
+    },
+    {
+      "name": "Hongting Wang",
+      "url": "https://startup.echoesofkeshialyricodyssey.click",
+      "votes": 0,
+      "notes": "6 guess the song. Doesn't seem to have a backend.",
+      "id": "echoesofkeshialyricodyssey"
+    },
+    {
+      "name": "Joshua Weidner",
+      "url": "https://startup.basketflyer.com",
+      "votes": 0,
+      "notes": "6 this feels like a simpl https://kaboomjs.com/ game with a web app wrapper",
+      "id": "basketflyer"
+    },
+    {
+      "name": "Spencer Winward",
+      "url": "https://startup.winward.click",
+      "votes": 0,
+      "notes": "6 chess kind of. Not sure what this is supposed to be. Doesn't seem to have a backend.",
+      "id": "winward"
+    },
+    {
+      "name": "Gent Yong",
+      "url": "https://startup.nametag.click/",
+      "votes": 0,
+      "notes": "6 very basic alias link to information you provide that times out after ten minutes",
+      "id": "nametag"
+    },
+    {
+      "name": "Gordon Yu",
+      "url": "https://startup.1337code.click/",
+      "votes": 0,
+      "notes": "4 Answer leet questions. some nice css and js, but doesn't do the full stack",
+      "id": "1337code"
+    }
+  ]
+}
