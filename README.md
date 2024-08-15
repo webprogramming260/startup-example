@@ -37,7 +37,7 @@ I am going to use the required technologies in the following ways.
 
 - **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
-- **JavaScript** - Provides login, choice display, applying votes, display other users votes, backend endpoint calls.
+- **React** - Provides login, choice display, applying votes, display other users votes, and use of React for routing and components.
 - **Service** - Backend service with endpoints for:
   - login
   - retrieving choices
@@ -45,7 +45,6 @@ I am going to use the required technologies in the following ways.
   - retrieving vote status
 - **DB/Login** - Store users, choices, and votes in database. Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
-- **React** - Application ported to use the React web framework.
 
 ## HTML deliverable
 
@@ -73,16 +72,20 @@ For this deliverable I properly styled the application into its final appearance
 - [x] **Application text content** - Consistent fonts
 - [ ] **Application images** - Still don't have images and so no styling here. 😔
 
-## JavaScript deliverable
+## React deliverable
 
-➡️ The following is an example of the required information for the `Startup JavaScript` deliverable
+➡️ The following is an example of the required information for the `Startup React` deliverable
 
-For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
+For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
-- [x] **login** - When you press enter or the login button it takes you to the voting page.
-- [x] **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
-- [x] **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
-- [x] **application logic** - The highlight and ranking number change based up the user's selections.
+- [x] **Bundled and transpiled** - done!
+- [x] **Components** - Login, voting list, vote are all components with mocks for login, WebSocket.
+  - [x] **login** - When you press enter or the login button it takes you to the voting page.
+  - [x] **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
+  - [x] **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
+  - [x] **application logic** - The highlight and ranking number change based up the user's selections.
+- [x] **Router** - Routing between login and voting components.
+- [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
 
 ## Service deliverable
 
@@ -119,14 +122,3 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 - [x] **Frontend makes WebSocket connection** - done!
 - [x] **Data sent over WebSocket connection** - done!
 - [x] **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool!
-
-## React deliverable
-
-➡️ The following is an example of the required information for the `Startup React` deliverable
-
-For this deliverable I converted the application over to use Vue. I know it is supposed to use React, but the instructor said I could use Vue because I already have extensive experience with React.
-
-- [x] **Bundled and transpiled** - done!
-- [x] **Components** - Login, voting list, vote are all components.
-- [x] **Router** - Routing between login and voting components.
-- [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
