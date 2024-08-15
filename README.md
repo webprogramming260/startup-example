@@ -18,7 +18,18 @@ Have you ever endlessly debated with your friends about where to meet for lunch,
 
 Here is a sequence diagram that shows how to people would interact with the backend to vote.
 
-![Voting sequence diagram](votingSequenceDiagram.png)
+```mermaid
+sequenceDiagram
+    actor Alice
+    actor Juan
+    actor Bud
+    Alice->>Server: Bud + 1
+    Server -->>Juan: Bud + 1
+    Server -->>Bud: Bud + 1
+    Juan->>Server: Alice + 1
+    Server -->>Bud: Alice + 1
+    Server -->>Alice: Alice + 1
+```
 
 ### Key features
 
