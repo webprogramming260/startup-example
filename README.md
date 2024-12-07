@@ -60,7 +60,7 @@ I am going to use the required technologies in the following ways.
 ## Deployment instructions
 
 1. Clone this repository to your development environment.
-1. Create a `dbConfig.json` file that contains the credentials to access your Mongo Database.
+1. Create a `dbConfig.json` file that contains the credentials to access your Mongo Database. This must be placed in the root of the project.
 
    ```json
    {
@@ -91,9 +91,7 @@ I am going to use the required technologies in the following ways.
    curl startup.cs260.click
    ```
 
-## Modify the candidates
-
-If you want to modify the candidates that are currently voted on then alter `finalists.json`.
+1. **Optional**: If you want to modify the candidates that are currently voted on then alter `finalists.json`.
 
 ## HTML deliverable
 
