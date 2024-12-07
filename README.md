@@ -57,6 +57,44 @@ I am going to use the required technologies in the following ways.
 - **DB/Login** - Store users, choices, and votes in database. Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 
+## Deployment instructions
+
+1. Clone this repository to your development environment.
+1. Create a `dbConfig.json` file that contains the credentials to access your Mongo Database.
+
+   ```json
+   {
+     "hostname": "YourMongoDbAccount.xiu1cqz.mongodb.net",
+     "userName": "YourMongoDbUsername",
+     "password": "YourMongoDbPassword"
+   }
+   ```
+
+1. NPM install both the frontend and backend dependencies.
+
+   ```sh
+   npm install
+   cd ui
+   npm install
+   cd ..
+   ```
+
+1. Use the `deploy.sh` shell script to deploy Voter to an EC2 instance. You will need the PEM key in order to run the script.
+
+   ```sh
+   ./deploy.sh -k ~/keys/yourkeyhere.pem -h yourdomainnamehere.click
+   ```
+
+1. Verify that the application is running on the domain.
+
+   ```sh
+   curl startup.cs260.click
+   ```
+
+## Modify the candidates
+
+If you want to modify the candidates that are currently voted on then alter `finalists.json`.
+
 ## HTML deliverable
 
 ➡️ The following is an example of the required information for the `Startup HTML` deliverable
