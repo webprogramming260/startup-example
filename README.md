@@ -168,4 +168,4 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 - [x] **Backend listens for WebSocket connection** - done!
 - [x] **Frontend makes WebSocket connection** - done!
 - [x] **Data sent over WebSocket connection** - done!
-- [x] **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool!
+- [x] **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool! 🎉 I'm going to celebrate with my bestie over waffles!
