@@ -91,7 +91,17 @@ I am going to use the required technologies in the following ways.
    curl startup.cs260.click
    ```
 
-1. **Optional**: If you want to modify the candidates that are currently voted on then alter `finalists.json`.
+1. **Optional**: If you want to modify the candidates that are currently voted on then alter `finalists.json`. The format of the file is as follows:
+
+   ```json
+   { "candidate": [{ "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }] }
+   ```
+
+   You can update the candidates with the following endpoint call:
+
+   ```sh
+   curl -X PUT localhost:4000/api/candidate -H "Content-Type:application/json" --data '@finalists.json'
+   ```
 
 ## HTML deliverable
 
