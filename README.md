@@ -44,7 +44,7 @@ sequenceDiagram
 
 ### Technologies
 
-I am going to use the required technologies in the following ways.
+I am going to use the required technologies in the following ways:
 
 - **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
