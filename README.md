@@ -6,8 +6,6 @@ The specification deliverable section defines what your application will do. The
 
 ## Specification Deliverable
 
-➡️ The following is an example of the required information for the `Startup Specification` deliverable
-
 ### Elevator pitch
 
 Have you ever endlessly debated with your friends about where to meet for lunch, or had your team bog down about an important decision that needs to be made. The Voting application makes it so a group of people can pull out their phones, clearly see the options, and pick their top three choices. As each user makes their choices the results are automatically tallied and displayed in realtime to all the other group members. Once everyone locks in their choices the group can move forward with confidence that the best option has been selected.
@@ -105,8 +103,6 @@ I am going to use the required technologies in the following ways.
 
 ## HTML deliverable
 
-➡️ The following is an example of the required information for the `Startup HTML` deliverable
-
 For this deliverable I built out the structure of my application using HTML.
 
 - [x] **HTML pages** - Two HTML page that represent the ability to login and vote.
@@ -118,8 +114,6 @@ For this deliverable I built out the structure of my application using HTML.
 
 ## CSS deliverable
 
-➡️ The following is an example of the required information for the `Startup CSS` deliverable
-
 For this deliverable I properly styled the application into its final appearance.
 
 - [x] **Header, footer, and main content body**
@@ -130,8 +124,6 @@ For this deliverable I properly styled the application into its final appearance
 - [ ] **Application images** - Still don't have images and so no styling here. 😔
 
 ## React deliverable
-
-➡️ The following is an example of the required information for the `Startup React` deliverable
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
@@ -146,8 +138,6 @@ For this deliverable I used JavaScript and React so that the application complet
 
 ## Service deliverable
 
-➡️ The following is an example of the required information for the `Startup Service` deliverable
-
 For this deliverable I added backend endpoints that receives votes and returns the voting totals.
 
 - [x] **Node.js/Express HTTP service** - done!
@@ -157,8 +147,6 @@ For this deliverable I added backend endpoints that receives votes and returns t
 - [x] **Frontend calls service endpoints** - I did this using the fetch function.
 
 ## DB/Login deliverable
-
-➡️ The following is an example of the required information for the `Startup DB/Login` deliverable
 
 For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
 
@@ -170,8 +158,6 @@ For this deliverable I associate the votes with the logged in user. I stored the
 - [ ] **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 😔
 
 ## WebSocket deliverable
-
-➡️ The following is an example of the required information for the `Startup WebSocket` deliverable
 
 For this deliverable I used webSocket to update the votes on the frontend in realtime.
 
