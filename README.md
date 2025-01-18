@@ -92,7 +92,11 @@ I am going to use the required technologies in the following ways:
 1. **Optional**: If you want to modify the candidates that are currently voted on then alter `finalists.json`. The format of the file is as follows:
 
    ```json
-   { "candidate": [{ "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }] }
+   {
+     "candidate": [
+       { "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }
+     ]
+   }
    ```
 
    You can update the candidates with the following endpoint call:
@@ -123,7 +127,22 @@ For this deliverable I properly styled the application into its final appearance
 - [x] **Application text content** - Consistent fonts
 - [ ] **Application images** - Still don't have images and so no styling here. 😔
 
-## React deliverable
+## React deliverable Phase 1: HTML/CSS
+
+➡️ The following is an example of the required information for the `Startup React` deliverable
+
+For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
+
+- [x] **Bundled and transpiled** - done!
+- [x] **Components** - Login, voting list, vote are all components with mocks for login, WebSocket.
+  - [x] **login** - When you press enter or the login button it takes you to the voting page.
+  - [x] **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
+  - [x] **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
+  - [x] **application logic** - The highlight and ranking number change based up the user's selections.
+- [x] **Router** - Routing between login and voting components.
+- [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
+
+## React deliverable Phase 2: JavaScript
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
@@ -145,17 +164,14 @@ For this deliverable I added backend endpoints that receives votes and returns t
 - [ ] **Calls to third party endpoints** - I didn't have time to implement this. 😔
 - [x] **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for voting.
 - [x] **Frontend calls service endpoints** - I did this using the fetch function.
+- [ ] **Supports registration, login, logout, and restricted endpoint** - Login only exists on the frontend.
 
 ## DB/Login deliverable
 
 For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
 
-- [x] **MongoDB Atlas database created** - done!
 - [x] **Stores data in MongoDB** - done!
-- [x] **User registration** - Creates a new account in the database.
-- [x] **existing user** - Stores the votes under the same user if the user already exists.
 - [x] **Use MongoDB to store credentials** - Stores both user and their votes.
-- [ ] **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 😔
 
 ## WebSocket deliverable
 
