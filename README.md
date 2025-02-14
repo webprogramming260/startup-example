@@ -93,9 +93,7 @@ I am going to use the required technologies in the following ways:
 
    ```json
    {
-     "candidate": [
-       { "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }
-     ]
+     "candidate": [{ "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }]
    }
    ```
 
@@ -127,11 +125,13 @@ For this deliverable I properly styled the application into its final appearance
 - [x] **Application text content** - Consistent fonts
 - [ ] **Application images** - Still don't have images and so no styling here. 😔
 
-## React deliverable Phase 1: HTML/CSS
-
-➡️ The following is an example of the required information for the `Startup React` deliverable
+## React deliverable Phase 1: Routing deliverable
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
+
+- [x] **Bundled using Vite** - So amazing what Vite does. Bundling, transpiling, minifying, and HMR.
+- [x] **Components** - I have three components: The app, the ballot items, and a bouncy ball.
+- [x] **Router** - Routing between login and voting components.
 
 - [x] **Bundled and transpiled** - done!
 - [x] **Components** - Login, voting list, vote are all components with mocks for login, WebSocket.
@@ -142,18 +142,12 @@ For this deliverable I used JavaScript and React so that the application complet
 - [x] **Router** - Routing between login and voting components.
 - [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
 
-## React deliverable Phase 2: JavaScript
+## React deliverable Phase 2: REactivity
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
-- [x] **Bundled and transpiled** - done!
-- [x] **Components** - Login, voting list, vote are all components with mocks for login, WebSocket.
-  - [x] **login** - When you press enter or the login button it takes you to the voting page.
-  - [x] **database** - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
-  - [x] **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
-  - [x] **application logic** - The highlight and ranking number change based up the user's selections.
-- [x] **Router** - Routing between login and voting components.
-- [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
+- [x] **All functionality implemented or mocked out** - Everything is working! Votes stored in local storage. `setInterval` used to simulate peer voting.
+- [x] **Hooks** - Used `useState` and `useEffect` on the voter view.
 
 ## Service deliverable
 
