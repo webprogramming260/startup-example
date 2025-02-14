@@ -125,7 +125,7 @@ For this deliverable I properly styled the application into its final appearance
 - [x] **Application text content** - Consistent fonts
 - [ ] **Application images** - Still don't have images and so no styling here. 😔
 
-## React deliverable Phase 1: Routing deliverable
+## React Phase 1: Routing deliverable
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
@@ -142,7 +142,7 @@ For this deliverable I used JavaScript and React so that the application complet
 - [x] **Router** - Routing between login and voting components.
 - [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
 
-## React deliverable Phase 2: Reactivity
+## React Phase 2: Reactivity deliverable
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
