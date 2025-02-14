@@ -142,7 +142,7 @@ For this deliverable I used JavaScript and React so that the application complet
 - [x] **Router** - Routing between login and voting components.
 - [x] **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
 
-## React deliverable Phase 2: REactivity
+## React deliverable Phase 2: Reactivity
 
 For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
 
