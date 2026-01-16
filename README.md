@@ -111,7 +111,9 @@ For this deliverable I built out the structure of my application using HTML.
 - [x] **Links** - The login page automatically links to the voter page. The voter page contains links for every voting choice.
 - [x] **Text** - Each of the voting choices is represented by a textual description.
 - [ ] **Images** - I couldn't figure out how to include an image and so I didn't do this. 😔
-- [x] **DB/Login** - Input box and submit button for login. The voting choices represent data pulled from the database.
+- [x] **Login** - Input box and submit button for login.
+    - [ ] **Username Display** - Unfortunately, I forgot to put this in.
+- [x] **DB**The voting choices represent data pulled from the database.
 - [x] **WebSocket** - The count of voting results represent the tally of realtime votes.
 
 ## CSS deliverable
