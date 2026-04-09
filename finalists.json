@@ -1,92 +1,368 @@
 {
   "candidate": [
     {
-      "name": "Denise Braithwaite",
-      "url": "https://startup.puroguramu.click",
-      "votes": 0,
-      "notes": "**** Palette generator. Nicely done.",
-      "email": "dbraith0@byu.edu ✅",
-      "id": "138035"
+      "name": "Luke Bair",
+      "url": "http://startup.mythril.click",
+      "votes": 5,
+      "notes": "Mythril.Multi-user story editing with AI helper. beautiful hero. responsive problems. bypass security by going to urls directly. AI not answering questions",
+      "id": 20000
     },
     {
-      "name": "Joshua Steed",
-      "url": "https://startup.minijosh.click/",
-      "votes": 0,
-      "notes": "**** Fantasy general conference game ✅",
-      "email": "steedjms@byu.edu",
-      "id": "135753"
+      "name": "Kou Barlow",
+      "url": "http://startup.yaytomodachi.click",
+      "votes": 6,
+      "notes": "Tomodachi. Journal sharing. Bad form HCI. Nice and clean. I'm not sure what the websocket is doing. It doesn't seem to be updating the page with new journal entries.",
+      "id": 20001
     },
     {
-      "name": "Emily Chase",
-      "url": "https://startup.hangcheese.click/",
-      "votes": 0,
-      "notes": "**** guess the word game ✅",
-      "email": "emchase8@byu.edu",
-      "id": "105459"
+      "name": "Kaden Bradshaw",
+      "url": "https://startup.pantrypal.click",
+      "votes": 8,
+      "notes": "PantryPal. Nice friend request with websocket. create recipe and shopping list with AI. share recipes. This is pretty cool",
+      "id": 20002
     },
     {
-      "name": "Wyatt Dunlap",
-      "url": "https://startup.projectw.click/",
-      "votes": 0,
-      "notes": "***** Multiplayer hang man ✅",
-      "email": "wkd19@byu.edu",
-      "id": "141375"
+      "name": "Joshua Brown",
+      "url": "https://startup.fjordcards.click",
+      "votes": 6,
+      "notes": "Fjord. playing card manager. Actually pretty nice ui. websocket for trading. Not sure how to actually create a deck though.",
+      "id": 20003
     },
     {
-      "name": "Karly James",
-      "url": "https://startup.popdepot.click/",
-      "votes": 0,
-      "notes": "*** Pick box and add to collection. Visually nice. ✅",
-      "email": "kjames1a@byu.edu",
-      "id": "81111"
+      "name": "Adam Clark",
+      "url": "https://startup.drawdle.click/",
+      "votes": 3,
+      "notes": "Drawdle. Draw what the prompt says. Doesn't seem to work other than drawing.",
+      "id": 20005
     },
     {
-      "name": "Jamil Khalaf",
-      "url": "https://startup.jamil260.click/",
-      "votes": 0,
-      "notes": "*** Simple memory game ✅",
-      "email": "jamil04k@byu.edu",
-      "id": "107315"
+      "name": "Rachel Coffey",
+      "url": "https://startup.storypolls.click/",
+      "votes": 4,
+      "notes": "StoryPolls. create a poll and then vote. I don't see what the websocket is doing.",
+      "id": 20006
     },
     {
-      "name": "Minjoong Kim",
-      "url": "http://startup.rockpaperscissorsminusone.link/",
-      "votes": 0,
-      "notes": "**** Rock paper scissors game. Very nice. ✅",
-      "email": "mj0908@byu.edu ",
-      "id": "128659"
+      "name": "Sean Cowley",
+      "url": "https://startup.totallylegitdomain.lol",
+      "votes": 4,
+      "notes": "Cooked Book. Create recipes. Looks half done. Can't upload image. Don't know what is happening with websocket.",
+      "id": 20007
     },
     {
-      "name": "Chase Odom",
-      "url": "https://startup.chaseodom.click/",
-      "votes": 0,
-      "notes": "***** Nice multiplayer text adventure game ✅",
-      "email": "codom06@byu.edu",
-      "id": "136650"
+      "name": "Howard Crawford",
+      "url": "https://startup.goplaytag.click",
+      "votes": 8,
+      "notes": "Tag. Multiplayer tag. This is really well done. Always sending websocket message though even when not moving.",
+      "id": 20008
     },
     {
-      "name": "Libby Tanner",
-      "url": "https://startup.soundscope.click",
+      "name": "Claire Daley",
+      "url": "https://startup.tapalot.click/",
       "votes": 0,
-      "notes": "**** Music rating app with links to spotify ✅",
-      "email": "ltanner0@byu.edu",
-      "id": "125903"
+      "notes": "Tap a lot. no error on duplicate user. tap a button for points. Kinda nice. Don't know what websocket is doing.",
+      "id": 20009
     },
     {
-      "name": "Garret Thomas",
-      "url": "https://startup.sgame.click",
-      "votes": 0,
-      "notes": "***** multiplayer game. seems cool. Push the other player off the edge. ✅",
-      "email": "gt92130@byu.edu",
-      "id": "93696"
+      "name": "James Davies",
+      "url": "https://startup.sodacap.space",
+      "votes": 7,
+      "notes": "Sodacap. Very clever. Twist on lemonade stand. tons of websocket messages flying by. updates leaderboard",
+      "id": 20010
     },
     {
-      "name": "Mason Tolley",
-      "url": "https://startup.mmmystery.click/",
+      "name": "Benjamin DeGraff",
+      "url": "https://startup.vibecheckjukebox.click/",
+      "votes": 8,
+      "notes": "Vibe Check. Shared jukebox. chat. pulls songs from youtube. websocket seems to be working. I really like this.",
+      "id": 20011
+    },
+    {
+      "name": "Brayden Dickerson",
+      "url": "https://startup.weighteddice.click",
+      "votes": 4,
+      "notes": "Weighted Dice. I think you create your own die and see if you can roll a streak. Doesn't seem to be working though. ",
+      "id": 20012
+    },
+    {
+      "name": "Rebekah Evans",
+      "url": "https://startup.atogap.me/",
+      "votes": 5,
+      "notes": "AtoG. Music learning game. It is ok. Has a teacher view to see scores.",
+      "id": 20014
+    },
+    {
+      "name": "Bryce Farley",
+      "url": "https://startup.bydefinition.click/",
+      "votes": 6,
+      "notes": "By Definition. Work through the synonyms. Fairly nice. I can never win this game.",
+      "id": 20015
+    },
+    {
+      "name": "Madilynn Feely",
+      "url": "https://startup.madilynnhr.com/",
       "votes": 0,
-      "notes": "****** clue multiplayer game. ✅",
-      "email": "mctolley@byu.edu",
-      "id": "138042"
+      "notes": "TuneChart. Submit and rank songs",
+      "id": 20016
+    },
+    {
+      "name": "Noah Goo",
+      "url": "https://startup.masteryloop.click/login",
+      "votes": 4,
+      "notes": "MasteryLoop. Create and take quizzes. OK, but kind of slow.",
+      "id": 20018
+    },
+    {
+      "name": "Samuel Grigg",
+      "url": "https://startup.numbrguessr.click/",
+      "votes": 4,
+      "notes": "NumberGuessr. Guess the number..",
+      "id": 20019
+    },
+    {
+      "name": "Jeffrey Grover",
+      "url": "https://startup.whatsyourschedule.click/",
+      "votes": 7,
+      "notes": "Whats your schedule. Schedule sharing. Pulls in events from BYU and adds them to your calendar. You can share your schedule with friends. Websocket seems to be working to update shared schedules.",
+      "id": 20020
+    },
+    {
+      "name": "Benjamim Gutierrez",
+      "url": "https://recipemaster.click/",
+      "votes": 6,
+      "notes": "Recipe Suite. Really nice looking. Not sure where websocket is used.",
+      "id": 20021
+    },
+    {
+      "name": "Matthew Hart",
+      "url": "https://startup.slimestartup.click/",
+      "votes": 4,
+      "notes": "Slime. Simple messaging app.",
+      "id": 20022
+    },
+    {
+      "name": "Michael Harvey",
+      "url": "https://startup.reactions.click",
+      "votes": 6,
+      "notes": "Reactions. Simple reaction timer with live leaderboard.",
+      "id": 20023
+    },
+    {
+      "name": "Hannah Heydorn",
+      "url": "https://startup.binarymania.click/",
+      "votes": 6,
+      "notes": "Binary Mania. Binary guess my number..",
+      "id": 20024
+    },
+    {
+      "name": "Luke Howell",
+      "url": "https://startup.subscriptionmanager.click",
+      "votes": 6,
+      "notes": "Subscription Manager. Looks pretty. Get notifications when subscriptions are coming up.",
+      "id": 20026
+    },
+    {
+      "name": "Joshua Job",
+      "url": "https://startup.joshuajob-cs.click/",
+      "votes": 6,
+      "notes": "Psychic Questions. Multiplayer who knew.",
+      "id": 20027
+    },
+    {
+      "name": "Broderick Johnson",
+      "url": "http://startup.officetalk.click",
+      "votes": 7,
+      "notes": "OfficeTalk. Multiple players in a voice chat and moving avatar around.",
+      "id": 20028
+    },
+    {
+      "name": "Brooklyn Jones",
+      "url": "https://startup.brooklyn-jones.click/",
+      "votes": 6,
+      "notes": "Monster Matching. Match the monster cards. Simple but cute",
+      "id": 20029
+    },
+    {
+      "name": "Benjamin Keller",
+      "url": "https://startup.memorybox.click/",
+      "votes": 6,
+      "notes": "Memory box. Share and comment on stories",
+      "id": 20030
+    },
+    {
+      "name": "Alexander Kemp",
+      "url": "https://startup.readforeign.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20031
+    },
+    {
+      "name": "Sarah Kennedy",
+      "url": "https://startup.260skkwebprogramming.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20032
+    },
+    {
+      "name": "Collin Kinnaird",
+      "url": "https://startup.epicgoals.click/login",
+      "votes": 0,
+      "notes": "",
+      "id": 20033
+    },
+    {
+      "name": "Brandon Lantz",
+      "url": "https://startup.blantz.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20034
+    },
+    {
+      "name": "Davis Larson",
+      "url": "http://intotheunder.com",
+      "votes": 0,
+      "notes": "",
+      "id": 20035
+    },
+    {
+      "name": "Kent Lau",
+      "url": "https://startup.soundescape.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20036
+    },
+    {
+      "name": "Jarom Masters",
+      "url": "https://startup.boardification.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20037
+    },
+    {
+      "name": "Elizabeth Nichols",
+      "url": "https://startup.blossomblueprint.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20039
+    },
+    {
+      "name": "Tyler Nichols",
+      "url": "https://startup.tnich-startup.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20040
+    },
+    {
+      "name": "Jackson Passey",
+      "url": "https://startup.bracketbuilder.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20041
+    },
+    {
+      "name": "Catherine Perez",
+      "url": "https://startup.scripturequesst.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20042
+    },
+    {
+      "name": "Ethan Peterson",
+      "url": "https://startup.datedeck.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20043
+    },
+    {
+      "name": "Frederick Probst",
+      "url": "https://startup.outdaily.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20044
+    },
+    {
+      "name": "Adam Ross",
+      "url": "https://startup.mentalloadbearer.me/",
+      "votes": 0,
+      "notes": "",
+      "id": 20045
+    },
+    {
+      "name": "Seth Squires",
+      "url": "http://startup.sethsquires.com",
+      "votes": 0,
+      "notes": "",
+      "id": 20046
+    },
+    {
+      "name": "Clayton Stallings",
+      "url": "https://startup.claytonstallings.com/",
+      "votes": 0,
+      "notes": "",
+      "id": 20047
+    },
+    {
+      "name": "Albert Sun",
+      "url": "https://startup.doxys.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20048
+    },
+    {
+      "name": "Alyse Swenson",
+      "url": "https://startup.8bitalley.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20049
+    },
+    {
+      "name": "Eric Vinton",
+      "url": "https://startup.eric260.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20050
+    },
+    {
+      "name": "Joseph Feldt",
+      "url": "https://startup.eyesonspace.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20051
+    },
+    {
+      "name": "Olivia Walton",
+      "url": "http://startup.rippleconnections.click",
+      "votes": 0,
+      "notes": "Didn't have startup in URL",
+      "id": 20052
+    },
+    {
+      "name": "Xinlin Wang",
+      "url": "https://startup.xinlin260.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20053
+    },
+    {
+      "name": "Sawyer Whipperman",
+      "url": "https://startup.levelupskills.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20054
+    },
+    {
+      "name": "Tyler Wilcock",
+      "url": "http://startup.crackedtyper.click",
+      "votes": 0,
+      "notes": "",
+      "id": 20055
+    },
+    {
+      "name": "Aaron Wood",
+      "url": "https://thequisling.online",
+      "votes": 0,
+      "notes": "",
+      "id": 20056
     }
   ]
 }
