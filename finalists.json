@@ -3,56 +3,64 @@
     {
       "name": "Luke Bair",
       "url": "http://startup.mythril.click",
-      "votes": 5,
+      "votes": 0,
+      "eval": 5,
       "notes": "Mythril.Multi-user story editing with AI helper. beautiful hero. responsive problems. bypass security by going to urls directly. AI not answering questions",
       "id": 20000
     },
     {
       "name": "Kou Barlow",
       "url": "http://startup.yaytomodachi.click",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Tomodachi. Journal sharing. Bad form HCI. Nice and clean. I'm not sure what the websocket is doing. It doesn't seem to be updating the page with new journal entries.",
       "id": 20001
     },
     {
       "name": "Kaden Bradshaw",
       "url": "https://startup.pantrypal.click",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "PantryPal. Nice friend request with websocket. create recipe and shopping list with AI. share recipes. This is pretty cool",
       "id": 20002
     },
     {
       "name": "Joshua Brown",
       "url": "https://startup.fjordcards.click",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Fjord. playing card manager. Actually pretty nice ui. websocket for trading. Not sure how to actually create a deck though.",
       "id": 20003
     },
     {
       "name": "Adam Clark",
       "url": "https://startup.drawdle.click/",
-      "votes": 3,
+      "votes": 0,
+      "eval": 3,
       "notes": "Drawdle. Draw what the prompt says. Doesn't seem to work other than drawing.",
       "id": 20005
     },
     {
       "name": "Rachel Coffey",
       "url": "https://startup.storypolls.click/",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "StoryPolls. create a poll and then vote. I don't see what the websocket is doing.",
       "id": 20006
     },
     {
       "name": "Sean Cowley",
       "url": "https://startup.totallylegitdomain.lol",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Cooked Book. Create recipes. Looks half done. Can't upload image. Don't know what is happening with websocket.",
       "id": 20007
     },
     {
       "name": "Howard Crawford",
       "url": "https://startup.goplaytag.click",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "Tag. Multiplayer tag. This is really well done. Always sending websocket message though even when not moving.",
       "id": 20008
     },
@@ -60,41 +68,47 @@
       "name": "Claire Daley",
       "url": "https://startup.tapalot.click/",
       "votes": 0,
+      "eval": 0,
       "notes": "Tap a lot. no error on duplicate user. tap a button for points. Kinda nice. Don't know what websocket is doing.",
       "id": 20009
     },
     {
       "name": "James Davies",
       "url": "https://startup.sodacap.space",
-      "votes": 7,
+      "votes": 0,
+      "eval": 7,
       "notes": "Sodacap. Very clever. Twist on lemonade stand. tons of websocket messages flying by. updates leaderboard",
       "id": 20010
     },
     {
       "name": "Benjamin DeGraff",
       "url": "https://startup.vibecheckjukebox.click/",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "Vibe Check. Shared jukebox. chat. pulls songs from youtube. websocket seems to be working. I really like this.",
       "id": 20011
     },
     {
       "name": "Brayden Dickerson",
       "url": "https://startup.weighteddice.click",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Weighted Dice. I think you create your own die and see if you can roll a streak. Doesn't seem to be working though. ",
       "id": 20012
     },
     {
       "name": "Rebekah Evans",
       "url": "https://startup.atogap.me/",
-      "votes": 5,
+      "votes": 0,
+      "eval": 5,
       "notes": "AtoG. Music learning game. It is ok. Has a teacher view to see scores.",
       "id": 20014
     },
     {
       "name": "Bryce Farley",
       "url": "https://startup.bydefinition.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "By Definition. Work through the synonyms. Fairly nice. I can never win this game.",
       "id": 20015
     },
@@ -102,139 +116,159 @@
       "name": "Madilynn Feely",
       "url": "https://startup.madilynnhr.com/",
       "votes": 0,
+      "eval": 0,
       "notes": "TuneChart. Submit and rank songs",
       "id": 20016
     },
     {
       "name": "Noah Goo",
       "url": "https://startup.masteryloop.click/login",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "MasteryLoop. Create and take quizzes. OK, but kind of slow.",
       "id": 20018
     },
     {
       "name": "Samuel Grigg",
       "url": "https://startup.numbrguessr.click/",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "NumberGuessr. Guess the number..",
       "id": 20019
     },
     {
       "name": "Jeffrey Grover",
       "url": "https://startup.whatsyourschedule.click/",
-      "votes": 7,
+      "votes": 0,
+      "eval": 7,
       "notes": "Whats your schedule. Schedule sharing. Pulls in events from BYU and adds them to your calendar. You can share your schedule with friends. Websocket seems to be working to update shared schedules.",
       "id": 20020
     },
     {
       "name": "Benjamim Gutierrez",
       "url": "https://recipemaster.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Recipe Suite. Really nice looking. Not sure where websocket is used.",
       "id": 20021
     },
     {
       "name": "Matthew Hart",
       "url": "https://startup.slimestartup.click/",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Slime. Simple messaging app.",
       "id": 20022
     },
     {
       "name": "Michael Harvey",
       "url": "https://startup.reactions.click",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Reactions. Simple reaction timer with live leaderboard.",
       "id": 20023
     },
     {
       "name": "Hannah Heydorn",
       "url": "https://startup.binarymania.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Binary Mania. Binary guess my number..",
       "id": 20024
     },
     {
       "name": "Luke Howell",
       "url": "https://startup.subscriptionmanager.click",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Subscription Manager. Looks pretty. Get notifications when subscriptions are coming up.",
       "id": 20026
     },
     {
       "name": "Joshua Job",
       "url": "https://startup.joshuajob-cs.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Psychic Questions. Multiplayer who knew.",
       "id": 20027
     },
     {
       "name": "Broderick Johnson",
       "url": "http://startup.officetalk.click",
-      "votes": 7,
+      "votes": 0,
+      "eval": 7,
       "notes": "OfficeTalk. Multiple players in a voice chat and moving avatar around.",
       "id": 20028
     },
     {
       "name": "Brooklyn Jones",
       "url": "https://startup.brooklyn-jones.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Monster Matching. Match the monster cards. Simple but cute",
       "id": 20029
     },
     {
       "name": "Benjamin Keller",
       "url": "https://startup.memorybox.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Memory box. Share and comment on stories",
       "id": 20030
     },
     {
       "name": "Alexander Kemp",
       "url": "https://startup.readforeign.click/",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "ReadForeign. Generates stories in a foreign language and you have to guess the meaning. Track unknown words. Really nice, but take a while for the story to generate.",
       "id": 20031
     },
     {
       "name": "Sarah Kennedy",
       "url": "https://startup.260skkwebprogramming.click/",
-      "votes": 5,
+      "votes": 0,
+      "eval": 5,
       "notes": "PetPet. Click on the cat and up your score.",
       "id": 20032
     },
     {
       "name": "Collin Kinnaird",
       "url": "https://startup.epicgoals.click/login",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Goals. Make goals and share with friends. Looks pretty nice.",
       "id": 20033
     },
     {
       "name": "Brandon Lantz",
       "url": "https://startup.blantz.click",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "neighborhood. Tag the map for meetups and commenting. Pretty simple but fun.",
       "id": 20034
     },
     {
       "name": "Davis Larson",
       "url": "http://intotheunder.com",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Into the under. It appears to be a downloader for something.",
       "id": 20035
     },
     {
       "name": "Kent Lau",
       "url": "https://startup.soundescape.click/",
-      "votes": 5,
+      "votes": 0,
+      "eval": 5,
       "notes": "soundescape. Look up music, rate, and add to your library. I wish I could play the music, but it does download the artwork.",
       "id": 20036
     },
     {
       "name": "Jarom Masters",
       "url": "https://startup.boardification.click/",
-      "votes": 5,
+      "votes": 0,
+      "eval": 5,
       "notes": "Boardification. Create and share leaderboards.",
       "id": 20037
     },
@@ -242,6 +276,7 @@
       "name": "Elizabeth Nichols",
       "url": "https://startup.blossomblueprint.click/",
       "votes": 0,
+      "eval": 0,
       "notes": "Blossom Blueprint. save your floral arrangements and share with friends.",
       "id": 20039
     },
@@ -249,111 +284,127 @@
       "name": "Tyler Nichols",
       "url": "https://startup.tnich-startup.click/",
       "votes": 0,
+      "eval": 0,
       "notes": "Decision Helper. Add options and criteria and have it help you make a decision.",
       "id": 20040
     },
     {
       "name": "Jackson Passey",
       "url": "https://startup.bracketbuilder.click",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "Bracket Builder. Really well done bracket builder.",
       "id": 20041
     },
     {
       "name": "Catherine Perez",
       "url": "https://startup.scripturequesst.click/",
-      "votes": 3,
+      "votes": 0,
+      "eval": 3,
       "notes": "Prints a scripture and you have to guess where it is from. Not really working",
       "id": 20042
     },
     {
       "name": "Ethan Peterson",
       "url": "https://startup.datedeck.click",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Date deck. Make dating cards and then select them for a date. Kind of fun.",
       "id": 20043
     },
     {
       "name": "Frederick Probst",
       "url": "https://startup.outdaily.click",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "OutDaily. track outdoor activities and view a leaderboard.",
       "id": 20044
     },
     {
       "name": "Adam Ross",
       "url": "https://startup.mentalloadbearer.me/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Smart Weekly Scheduler. Schedule your week and add to google.",
       "id": 20045
     },
     {
       "name": "Seth Squires",
       "url": "http://startup.sethsquires.com",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Registery. Simple add items and view others.",
       "id": 20046
     },
     {
       "name": "Clayton Stallings",
       "url": "https://startup.claytonstallings.com/",
-      "votes": 5,
+      "votes": 0,
+      "eval": 5,
       "notes": "LangLearn. Create card decks and then review. Better if you could create a deck without uploading json",
       "id": 20047
     },
     {
       "name": "Albert Sun",
       "url": "https://startup.doxys.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Health Score. Check in with you state and view common dashboard. Websocket working great.",
       "id": 20048
     },
     {
       "name": "Alyse Swenson",
       "url": "https://startup.8bitalley.click",
-      "votes": 8,
+      "votes": 0,
+      "eval": 8,
       "notes": "Bit Board. Create and share pixel art. Nice multiplayer drawing. Websocket seems to be working.",
       "id": 20049
     },
     {
       "name": "Eric Vinton",
       "url": "https://startup.eric260.click/",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Video Game Voting. Something is wrong with this. Really slow. Missing signifiers on affordances.",
       "id": 20050
     },
     {
       "name": "Joseph Feldt",
       "url": "https://startup.eyesonspace.click/",
-      "votes": 9,
+      "votes": 0,
+      "eval": 9,
       "notes": "Explore the solar system. Uses Three.js.",
       "id": 20051
     },
     {
       "name": "Olivia Walton",
       "url": "http://startup.rippleconnections.click",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "RippleConnections. Create notes and connect them. Partially completed.",
       "id": 20052
     },
     {
       "name": "Xinlin Wang",
       "url": "https://startup.xinlin260.click/",
-      "votes": 6,
+      "votes": 0,
+      "eval": 6,
       "notes": "Add your status and let friends see.",
       "id": 20053
     },
     {
       "name": "Sawyer Whipperman",
       "url": "https://startup.levelupskills.click",
-      "votes": 3,
+      "votes": 0,
+      "eval": 3,
       "notes": "Level up. Chat program. Not really working.",
       "id": 20054
     },
     {
       "name": "Tyler Wilcock",
       "url": "http://startup.crackedtyper.click",
-      "votes": 7,
+      "votes": 0,
+      "eval": 7,
       "notes": "Cracked typer. Petty cool typing testing and leaderboard.",
       "id": 20055
     },
@@ -361,13 +412,15 @@
       "name": "Aaron Wood",
       "url": "https://thequisling.online",
       "votes": 0,
+      "eval": 0,
       "notes": "The quisling. Need 5 players to play",
       "id": 20056
     },
     {
       "name": "Sihan Dong",
       "url": "https://startup.sihanandbubble.click/",
-      "votes": 4,
+      "votes": 0,
+      "eval": 4,
       "notes": "Quick Delivery. Order food. Not really working.",
       "id": 20057
     }
