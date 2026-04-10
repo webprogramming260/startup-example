@@ -249,84 +249,84 @@
       "name": "Tyler Nichols",
       "url": "https://startup.tnich-startup.click/",
       "votes": 0,
-      "notes": "",
+      "notes": "Decision Helper. Add options and criteria and have it help you make a decision.",
       "id": 20040
     },
     {
       "name": "Jackson Passey",
       "url": "https://startup.bracketbuilder.click",
-      "votes": 0,
-      "notes": "",
+      "votes": 8,
+      "notes": "Bracket Builder. Really well done bracket builder.",
       "id": 20041
     },
     {
       "name": "Catherine Perez",
       "url": "https://startup.scripturequesst.click/",
-      "votes": 0,
-      "notes": "",
+      "votes": 3,
+      "notes": "Prints a scripture and you have to guess where it is from. Not really working",
       "id": 20042
     },
     {
       "name": "Ethan Peterson",
       "url": "https://startup.datedeck.click",
-      "votes": 0,
-      "notes": "",
+      "votes": 6,
+      "notes": "Date deck. Make dating cards and then select them for a date. Kind of fun.",
       "id": 20043
     },
     {
       "name": "Frederick Probst",
       "url": "https://startup.outdaily.click",
-      "votes": 0,
-      "notes": "",
+      "votes": 6,
+      "notes": "OutDaily. track outdoor activities and view a leaderboard.",
       "id": 20044
     },
     {
       "name": "Adam Ross",
       "url": "https://startup.mentalloadbearer.me/",
-      "votes": 0,
-      "notes": "",
+      "votes": 6,
+      "notes": "Smart Weekly Scheduler. Schedule your week and add to google.",
       "id": 20045
     },
     {
       "name": "Seth Squires",
       "url": "http://startup.sethsquires.com",
-      "votes": 0,
-      "notes": "",
+      "votes": 4,
+      "notes": "Registery. Simple add items and view others.",
       "id": 20046
     },
     {
       "name": "Clayton Stallings",
       "url": "https://startup.claytonstallings.com/",
-      "votes": 0,
-      "notes": "",
+      "votes": 5,
+      "notes": "LangLearn. Create card decks and then review. Better if you could create a deck without uploading json",
       "id": 20047
     },
     {
       "name": "Albert Sun",
       "url": "https://startup.doxys.click/",
-      "votes": 0,
-      "notes": "",
+      "votes": 6,
+      "notes": "Health Score. Check in with you state and view common dashboard. Websocket working great.",
       "id": 20048
     },
     {
       "name": "Alyse Swenson",
       "url": "https://startup.8bitalley.click",
-      "votes": 0,
-      "notes": "",
+      "votes": 8,
+      "notes": "Bit Board. Create and share pixel art. Nice multiplayer drawing. Websocket seems to be working.",
       "id": 20049
     },
     {
       "name": "Eric Vinton",
       "url": "https://startup.eric260.click/",
-      "votes": 0,
-      "notes": "",
+      "votes": 4,
+      "notes": "Video Game Voting. Something is wrong with this. Really slow. Missing signifiers on affordances.",
       "id": 20050
     },
     {
       "name": "Joseph Feldt",
       "url": "https://startup.eyesonspace.click/",
-      "votes": 0,
-      "notes": "",
+      "votes": 9,
+      "notes": "Explore the solar system. Uses Three.js.",
       "id": 20051
     },
     {
@@ -363,6 +363,13 @@
       "votes": 0,
       "notes": "",
       "id": 20056
+    },
+    {
+      "name": "Sihan Dong",
+      "url": "https://startup.sihanandbubble.click/",
+      "votes": 0,
+      "notes": "",
+      "id": 20057
     }
   ]
 }
