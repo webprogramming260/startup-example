@@ -64,53 +64,13 @@ I am going to use the required technologies in the following ways:
 - **DB/Login** - Store users, choices, and votes in database. Register and login users. Credentials securely stored in database. Can't vote unless authenticated.
 - **WebSocket** - As each user votes, their votes are broadcast to all other users.
 
-## Deployment instructions
+## 🚀 AWS deliverable
 
-1. Clone this repository to your development environment.
-1. Create a `dbConfig.json` file that contains the credentials to access your Mongo Database. This must be placed in the root of the project.
+For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-   ```json
-   {
-     "hostname": "YourMongoDbAccount.xiu1cqz.mongodb.net",
-     "userName": "YourMongoDbUsername",
-     "password": "YourMongoDbPassword"
-   }
-   ```
-
-1. NPM install both the frontend and backend dependencies.
-
-   ```sh
-   npm install
-   cd ui
-   npm install
-   cd ..
-   ```
-
-1. Use the `deploy.sh` shell script to deploy Voter to an EC2 instance. You will need the PEM key in order to run the script.
-
-   ```sh
-   ./deploy.sh -k ~/keys/yourkeyhere.pem -h yourdomainnamehere.click
-   ```
-
-1. Verify that the application is running on the domain.
-
-   ```sh
-   curl startup.cs260.click
-   ```
-
-1. **Optional**: If you want to modify the candidates that are currently voted on then alter `finalists.json`. The format of the file is as follows:
-
-   ```json
-   {
-     "candidate": [{ "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }]
-   }
-   ```
-
-   You can update the candidates with the following endpoint call:
-
-   ```sh
-   curl -X PUT localhost:4000/api/candidate -H "Content-Type:application/json" --data '@finalists.json'
-   ```
+- [x] **Rented EC2 server** - Got a t3.nano.
+- [x] **Leased domain name** - cs260.click is all mine
+- [x] **Server accessible** from my domain: [https://startup.cs260.click](https://startup.cs260.click) - Totally working. Check it out!
 
 ## HTML deliverable
 
@@ -185,3 +145,51 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 - [x] **Frontend makes WebSocket connection** - See voter.jsx
 - [x] **Data sent over WebSocket connection** - See service.js
 - [x] **WebSocket data displayed** - All user votes display in realtime. I'm really proud that this is working. Way cool! 🎉 I'm going to celebrate with my bestie over waffles!
+
+## Deployment instructions
+
+1. Clone this repository to your development environment.
+1. Create a `dbConfig.json` file that contains the credentials to access your Mongo Database. This must be placed in the root of the project.
+
+   ```json
+   {
+     "hostname": "YourMongoDbAccount.xiu1cqz.mongodb.net",
+     "userName": "YourMongoDbUsername",
+     "password": "YourMongoDbPassword"
+   }
+   ```
+
+1. NPM install both the frontend and backend dependencies.
+
+   ```sh
+   npm install
+   cd ui
+   npm install
+   cd ..
+   ```
+
+1. Use the `deploy.sh` shell script to deploy Voter to an EC2 instance. You will need the PEM key in order to run the script.
+
+   ```sh
+   ./deploy.sh -k ~/keys/yourkeyhere.pem -h yourdomainnamehere.click
+   ```
+
+1. Verify that the application is running on the domain.
+
+   ```sh
+   curl startup.cs260.click
+   ```
+
+1. **Optional**: If you want to modify the candidates that are currently voted on then alter `finalists.json`. The format of the file is as follows:
+
+   ```json
+   {
+     "candidate": [{ "name": "Meg", "url": "https://game.com", "votes": 0, "id": "game" }]
+   }
+   ```
+
+   You can update the candidates with the following endpoint call:
+
+   ```sh
+   curl -X PUT localhost:4000/api/candidate -H "Content-Type:application/json" --data '@finalists.json'
+   ```
