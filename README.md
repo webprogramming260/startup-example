@@ -1,4 +1,4 @@
-# Voter
+# [Voter](https://startup.cs260.click)
 
 This application serves as an example for the information you must provide in your Start Up `README.md` file for each phase of your development. You only need to fill in the section for the deliverable when you submit that deliverable in Canvas. This allows the TA to know what should be graded.
 
